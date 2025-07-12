@@ -1,5 +1,3 @@
-langchain
 sentence-transformers
-neo4j
-thefuzz
-python-Levenshtein
+langchain_community
+openai
