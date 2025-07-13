@@ -1,0 +1,2401 @@
+{
+  "TEI": {
+    "@xml:space": "preserve",
+    "@xmlns": "http://www.tei-c.org/ns/1.0",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "@xsi:schemaLocation": "http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd",
+    "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+    "teiHeader": {
+      "@xml:lang": "en",
+      "fileDesc": {
+        "titleStmt": {
+          "title": {
+            "@level": "a",
+            "@type": "main",
+            "#text": "RIS-Empowered Ambient Backscatter Communication Systems"
+          },
+          "funder": {
+            "orgName": {
+              "@type": "full",
+              "#text": "Huawei Technologies Canada Company, Ltd"
+            }
+          }
+        },
+        "publicationStmt": {
+          "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+          "availability": {
+            "@status": "unknown",
+            "licence": null
+          },
+          "date": {
+            "@type": "published",
+            "@when": "2023-01",
+            "#text": "2023-01"
+          }
+        },
+        "sourceDesc": {
+          "biblStruct": {
+            "analytic": {
+              "author": [
+                {
+                  "persName": {
+                    "forename": {
+                      "@type": "first",
+                      "#text": "D"
+                    },
+                    "surname": "Loku Galappaththige"
+                  },
+                  "idno": {
+                    "@type": "ORCID",
+                    "#text": "0000-0001-9644-9547"
+                  }
+                },
+                {
+                  "@role": "corresp",
+                  "persName": {
+                    "forename": {
+                      "@type": "first",
+                      "#text": "F"
+                    },
+                    "surname": "Rezaei"
+                  },
+                  "email": "rezaeidi@ualberta.ca",
+                  "idno": {
+                    "@type": "ORCID",
+                    "#text": "0000-0001-8234-7136"
+                  }
+                },
+                {
+                  "persName": {
+                    "forename": {
+                      "@type": "first",
+                      "#text": "C"
+                    },
+                    "surname": "Tellambura"
+                  },
+                  "idno": {
+                    "@type": "ORCID",
+                    "#text": "0000-0002-9419-7195"
+                  }
+                },
+                {
+                  "persName": {
+                    "forename": {
+                      "@type": "first",
+                      "#text": "Sanjeewa"
+                    },
+                    "surname": "Herath"
+                  },
+                  "idno": {
+                    "@type": "ORCID",
+                    "#text": "0000-0001-5980-1142"
+                  }
+                },
+                {
+                  "affiliation": {
+                    "@key": "aff0",
+                    "orgName": [
+                      {
+                        "@type": "department",
+                        "#text": "Department of Electrical and Computer Engineering"
+                      },
+                      {
+                        "@type": "institution",
+                        "#text": "University of Alberta"
+                      }
+                    ],
+                    "address": {
+                      "postCode": "T6G 1H9",
+                      "settlement": "Edmonton",
+                      "region": "AB",
+                      "country": {
+                        "@key": "CA",
+                        "#text": "Canada"
+                      }
+                    }
+                  }
+                },
+                {
+                  "affiliation": {
+                    "@key": "aff1",
+                    "orgName": {
+                      "@type": "institution",
+                      "#text": "Ottawa Wireless Advanced System Competency Centre"
+                    },
+                    "address": {
+                      "postCode": "K2K 3J1",
+                      "settlement": "Ottawa",
+                      "region": "Huawei Canada ON",
+                      "country": {
+                        "@key": "CA",
+                        "#text": "Canada"
+                      }
+                    }
+                  }
+                }
+              ],
+              "title": {
+                "@level": "a",
+                "@type": "main",
+                "#text": "RIS-Empowered Ambient Backscatter Communication Systems"
+              }
+            },
+            "monogr": {
+              "title": [
+                {
+                  "@level": "j",
+                  "@type": "main",
+                  "#text": "IEEE Wireless Communications Letters"
+                },
+                {
+                  "@level": "j",
+                  "@type": "abbrev",
+                  "#text": "IEEE Wireless Commun. Lett."
+                }
+              ],
+              "idno": [
+                {
+                  "@type": "ISSN",
+                  "#text": "2162-2337"
+                },
+                {
+                  "@type": "eISSN",
+                  "#text": "2162-2345"
+                }
+              ],
+              "imprint": {
+                "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+                "biblScope": [
+                  {
+                    "@unit": "volume",
+                    "#text": "12"
+                  },
+                  {
+                    "@unit": "issue",
+                    "#text": "1"
+                  },
+                  {
+                    "@unit": "page",
+                    "@from": "173",
+                    "@to": "177"
+                  }
+                ],
+                "date": {
+                  "@type": "published",
+                  "@when": "2023-01"
+                }
+              }
+            },
+            "idno": [
+              {
+                "@type": "MD5",
+                "#text": "CE58844E9D50EA1501DB9E96B7FE9B75"
+              },
+              {
+                "@type": "DOI",
+                "#text": "10.1109/lwc.2022.3220158"
+              }
+            ],
+            "note": {
+              "@type": "submission",
+              "#text": "received 8 October 2022; accepted 1 November 2022. Date of publication 7 November 2022; date of current version 9 January 2023."
+            }
+          }
+        }
+      },
+      "encodingDesc": {
+        "appInfo": {
+          "application": {
+            "@version": "0.8.2",
+            "@ident": "GROBID",
+            "@when": "2025-07-13T02:43+0000",
+            "desc": "GROBID - A machine learning software for extracting information from scholarly documents",
+            "label": [
+              {
+                "@type": "revision",
+                "#text": "a91ee48"
+              },
+              {
+                "@type": "parameters",
+                "#text": "startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null"
+              }
+            ],
+            "ref": {
+              "@target": "https://github.com/kermitt2/grobid"
+            }
+          }
+        }
+      },
+      "profileDesc": {
+        "textClass": {
+          "keywords": {
+            "term": [
+              "Ambient backscatter communication (AmBC)",
+              "reconfigurable intelligent surface (RIS)",
+              "passive tag"
+            ]
+          }
+        },
+        "abstract": {
+          "div": {
+            "@xmlns": "http://www.tei-c.org/ns/1.0",
+            "p": "Passive tags must harvest sufficient energy to operate. However, ensuring the tag's energy needs and simultaneously suppressing the interference in ambient backscatter systems is challenging. To meet this, we employ a reconfigurable intelligent surface (RIS) to amplify the ambient source signal that reaches the tag. We maximize the achievable rate by optimizing the RIS phase-shifts subject to the tag's energy harvesting constraint. Specifically, the phase-shifts are optimized to increase the tag's received power while suppressing the direct-and-RIS-cascaded link interference. The optimization problem is non-convex, and we convexify it by means of fractional programming and a quadratic transformation. In comparison to a benchmark, our optimal phase-shift design provides \u223c 150% and \u223c 250% gains in harvested power and achieved rate, respectively, at 20dBm transmit power."
+          }
+        }
+      }
+    },
+    "text": {
+      "@xml:lang": "en",
+      "body": {
+        "div": [
+          {
+            "@xmlns": "http://www.tei-c.org/ns/1.0",
+            "p": [
+              "option delivers more energy to the tag, resulting in improved harvested energy, higher achievable rates, and longer communication ranges with no modifications or additional processing at the tag. This letter investigates that option.",
+              {
+                "ref": {
+                  "@type": "figure",
+                  "@target": "#fig_0",
+                  "#text": "1"
+                },
+                "#text": "Motivation and Our Contributions: The primary aim is to increase the tag activation distance and received power (Fig. ). A RIS in the source-to-tag link achieves those goals. However, the reflected signal via RIS must be lower than the tag's backscatter signal. Otherwise, the decoding performance of the reader degrades (Remark 1). Hence, the detrimental effects of this interference must be eliminated."
+              },
+              {
+                "ref": {
+                  "@type": "figure",
+                  "@target": "#fig_0",
+                  "#text": "1"
+                },
+                "#text": "Therefore, we aim to enhance the tag data rate (Fig. ) by maximizing the received signal-to-interference-plus-noise ratio (SINR) at the reader. This improves the reader's desired signal power and suppresses the interference from the S-R and S-RIS-R links. We thus optimize the RIS phase shifts to maximize the tag rate subject to the tag's EH constraint. The optimization problem is not convex, so we convert it into a convex one and solve it using fractional programming. We show that the optimal RIS phase-shift design increases the tag's received power and suppresses the interference from the direct and the cascaded links, achieving significant gains in RIS-empowered AmBC."
+              }
+            ]
+          },
+          {
+            "@xmlns": "http://www.tei-c.org/ns/1.0",
+            "head": "A. Previous Contributions on RIS-Assisted AmBC",
+            "p": [
+              {
+                "ref": [
+                  {
+                    "@type": "bibr",
+                    "@target": "#b5",
+                    "#text": "[6]"
+                  },
+                  {
+                    "@type": "bibr",
+                    "@target": "#b3",
+                    "#text": "[4]"
+                  },
+                  {
+                    "@type": "bibr",
+                    "@target": "#b4",
+                    "#text": "[5]"
+                  },
+                  {
+                    "@type": "bibr",
+                    "@target": "#b6",
+                    "#text": "[7]"
+                  },
+                  {
+                    "@type": "bibr",
+                    "@target": "#b7",
+                    "#text": "[8]"
+                  },
+                  {
+                    "@type": "bibr",
+                    "@target": "#b8",
+                    "#text": "[9]"
+                  },
+                  {
+                    "@type": "bibr",
+                    "@target": "#b9",
+                    "#text": "[10]"
+                  }
+                ],
+                "#text": "RIS improves performance of backscatter communication (BackCom) , particularly the detection performance and the bit error rate of AmBC , , , , . These works show reliable communications at a moderate signal-to-noise ratio (SNR). Moreover, a RIS can improve the energy efficiency of an AmBC-enabled non-orthogonal multiple access (NOMA) network by assisting cell-edge users ."
+              },
+              {
+                "ref": [
+                  {
+                    "@type": "bibr",
+                    "@target": "#b3",
+                    "#text": "[4]"
+                  },
+                  {
+                    "@type": "bibr",
+                    "@target": "#b4",
+                    "#text": "[5]"
+                  },
+                  {
+                    "@type": "bibr",
+                    "@target": "#b6",
+                    "#text": "[7]"
+                  },
+                  {
+                    "@type": "bibr",
+                    "@target": "#b7",
+                    "#text": "[8]"
+                  },
+                  {
+                    "@type": "bibr",
+                    "@target": "#b8",
+                    "#text": "[9]"
+                  }
+                ],
+                "#text": "This letter differs from , , , , . Our focus is to maximize the tag rate under EH constraint by optimizing the RIS phase shifts to enhance the desired signal power and suppress the interference terms."
+              },
+              "Notation: A T and A H , denote transpose and Hermitian transpose, respectively.",
+              {
+                "ref": {
+                  "@type": "url",
+                  "@target": "https://www.ieee.org/publications/rights/index.html",
+                  "#text": "https://www.ieee.org/publications/rights/index.html"
+                },
+                "#text": "E{\u2022} denotes the statistical 2162-2345 c 2022 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission. See  for more information. Authorized licensed use limited to: NUST School of Electrical Engineering and Computer Science (SEECS). Downloaded on June 13,2025 at 20:39:56 UTC from IEEE Xplore. Restrictions apply."
+              },
+              "expectation. Finally, CN (\u03bc, C) is a complex Gaussian vector with mean \u03bc and co-variance matrix C."
+            ]
+          },
+          {
+            "@xmlns": "http://www.tei-c.org/ns/1.0",
+            "head": "II. SYSTEM, CHANNEL, AND SIGNAL MODELS A. System and Channel Models",
+            "p": [
+              {
+                "ref": [
+                  {
+                    "@type": "figure",
+                    "@target": "#fig_0",
+                    "#text": "1"
+                  },
+                  {
+                    "@type": "bibr",
+                    "@target": "#b10",
+                    "#text": "[11]"
+                  },
+                  {
+                    "@type": "bibr",
+                    "@target": "#b2",
+                    "#text": "[3]"
+                  }
+                ],
+                "#text": "We consider a RIS-empowered AmBC network having a single-antenna source (S), a single-antenna reader (R), a single-antenna tag (T), and a RIS consisting of N passive reflectors (Fig. ). R is assumed to be a cooperative receiver that decodes the tag's data only (i.e., no primary data) . Hence, the primary purpose of the RIS used in the S-T link is to supply as much power to the passive tag as possible. In particular, we optimize the RIS phase shifts to maximize the tag's received power and the reader's received SINR. The RIS control unit can run the algorithm we develop to achieve this task. We take the symbiotic viewpoint that the ambient source will help to improve the performance of the AmBC network. To this end, we assume a backhaul connection between the RIS and the RF source . We label the set of passive RIS reflectors as N = {1, . . . , N }."
+              },
+              "The direct channels, S-T, S-R, and T-R are denoted as f 1 , f 2 , and u, respectively. Moreover, the reflective channels, S-RIS, RIS-T, and RIS-R are denoted as h",
+              "A unified representation of all channels is given as",
+              "where",
+              "is the phase of a. In (1), \u03b1 a is the envelope of a, which is assumed to be Nakagami-m distributed with m a shape and \u03a9 a = m a \u03b6 a scaling parameters. Here, \u03b6 a accounts for the large-scale path loss and shadowing. Since the RIS elements are co-located, the large-scale parameters are identical, i.e.,",
+              {
+                "ref": {
+                  "@type": "bibr",
+                  "@target": "#b11",
+                  "#text": "[12]"
+                },
+                "#text": ", and \u03b6 hn = \u03b6 h for n \u2208 N . We assume the availability of channel state information (CSI). Although CSI estimation is complicated in AmBC systems, some results are emerging (see  and reference therein)."
+              }
+            ],
+            "formula": [
+              {
+                "@xml:id": "formula_0",
+                "#text": "= [h 1 , . . . , h N ] T \u2208 C N \u00d71 , g k = [g k ,1 , . . . , g k ,N ] T \u2208 C N \u00d71 , k \u2208 {1, 2}, respec- tively."
+              },
+              {
+                "@xml:id": "formula_1",
+                "label": "(1)",
+                "#text": "a = \u03b1 a exp(j \u03c6 a ),"
+              },
+              {
+                "@xml:id": "formula_2",
+                "#text": "\u2208 A = {f 1 , f 2 , u, h n , g 1,n , g 2,n }, n \u2208 N and \u03c6 a \u2208 [-\u03c0, \u03c0]"
+              },
+              {
+                "@xml:id": "formula_3",
+                "#text": "\u03b6 g k ,n = \u03b6 g k , k \u2208 {1, 2}"
+              }
+            ]
+          },
+          {
+            "@xmlns": "http://www.tei-c.org/ns/1.0",
+            "head": "B. EH at the Passive Tag",
+            "p": [
+              {
+                "ref": {
+                  "@type": "bibr",
+                  "@target": "#b12",
+                  "#text": "[13]"
+                },
+                "#text": "Passive tags perform EH and data transmission simultaneously via the power-splitting mode . Each task takes a fraction of the incident RF power on the tag."
+              },
+              {
+                "ref": {
+                  "@type": "foot",
+                  "@target": "#foot_0",
+                  "#text": "1"
+                },
+                "#text": "Let P T be the received power at T, and it backscatters \u03b1P T of the received RF power and absorbs (1 -\u03b1)P T for EH, where \u03b1 \u2208 (0, 1) is the reflection coefficient of the tag. Here, we adopt the linear EH model, and the harvested power at the tag is given as"
+              },
+              {
+                "ref": [
+                  {
+                    "@type": "bibr",
+                    "@target": "#b13",
+                    "#text": "[14]"
+                  },
+                  {
+                    "@type": "bibr",
+                    "@target": "#b14",
+                    "#text": "[15]"
+                  },
+                  {
+                    "@type": "bibr",
+                    "@target": "#b15",
+                    "#text": "[16]"
+                  }
+                ],
+                "#text": "where \u03b2, (0 \u2264 \u03b2 < 1), is the power conversion efficiency, e.g., typical values of \u03b2 = {0.2, 0.4, 0.6} . Although practical EH circuits exhibit non-linear operating characteristics and an activation threshold, the linear model can be accurate for certain operating regions. However, non-linear EH models are widely used as well (see ,  and references therein)."
+              },
+              "Our solution can be extended to such models as well. We omit the details for brevity.",
+              "where \u0398 = diag(\u03b8 1 , . . . , \u03b8 N ) \u2208 C N \u00d7N is a diagonal matrix which captures the reflection properties (the magnitude of attenuation and the phase-shift) of the RIS elements. Moreover, \u03b8 n = \u03b7 n e j \u03c6n , n \u2208 N, is the complex-valued reflection coefficient at the n-th reflector, where \u03b7 n is the magnitude of attenuation and",
+              "According to Section II-B, T must harvest enough power to support its internal operations. Therefore, with the linear EH model (2), the received power at T must satisfy the following energy constraint:",
+              {
+                "ref": {
+                  "@type": "foot",
+                  "@target": "#foot_1",
+                  "#text": "foot_1"
+                },
+                "#text": "where P T = P |f 1 + g T 1 \u0398h| is the received power at T and P b is the activation threshold of energy harvester at T."
+              },
+              {
+                "ref": {
+                  "@type": "foot",
+                  "@target": "#foot_2",
+                  "#text": "foot_2"
+                },
+                "#text": "T harvests energy from the received signal and modulates it with its data, q, where q is the normalized backscatter symbol selected from a multi-level (M-ary) modulation such that E{|q| } = 1, before transmitting it to R. The received signal at R is given as"
+              },
+              {
+                "ref": [
+                  {
+                    "@type": "figure",
+                    "@target": "#fig_0",
+                    "#text": "1"
+                  },
+                  {
+                    "@type": "bibr",
+                    "@target": "#b10",
+                    "#text": "[11]"
+                  },
+                  {
+                    "@type": "bibr",
+                    "@target": "#b4",
+                    "#text": "(5)"
+                  }
+                ],
+                "#text": "where z \u223c CN (0, \u03c3 2 z ) is the additive white Gaussian noise (AWGN) at R with mean 0 and variance \u03c3 2 z . The data detection task of R is to estimate the value of q. The second term on the right-hand side is the cumulative direct interference and the RIS reflected interference (red dash-lines in Fig. ). Ideally, this term must be eliminated by the SIC circuit . However, perfect SIC may not always be feasible, and a decoding error may occur during the SIC process. Hence, using , the received signal to decode the tag's signal after the imperfect SIC process can be written as"
+              },
+              "where \u015d is the decoded signal (the estimate of s). 2  Therefore, using (6), the received SINR at R may be expressed as",
+              {
+                "ref": {
+                  "@type": "bibr",
+                  "@target": "#b16",
+                  "#text": "[17]"
+                },
+                "#text": "where \u03c1 \u2208 [0, 1] determines the degree of imperfectness of the SIC operation . Next, the achievable rate at R is"
+              },
+              "Remark 1: To highlight the detrimental effects of interference from the direct link and the cascaded RIS channel, we investigate the signal-to-interference ratio (SIR) at R, which can be expressed as",
+              "where \u0398 is the optimal phase-shift matrix obtained by maximizing the desired signal component. From (3), we can determine how to maximize T's received signal power, which also increases desired power at R. Thus, the RIS phases should be chosen to maximize",
+              {
+                "ref": {
+                  "@type": "bibr",
+                  "@target": "#b17",
+                  "#text": "[18]"
+                },
+                "#text": "This happens when all the terms add constructively to f 1 , i.e., \u03c6 f = \u03c6 gn + \u03c6 hn + \u03c6 n , where \u03c6 a \u2208 [-\u03c0, \u03c0] is the phase of a \u2208 A. Therefore, the n-th RIS phase-shift is adjusted as \u03c6 n = max -\u03c0\u2264\u03c6n \u2264\u03c0 P T = \u03c6 f -(\u03c6 gn + \u03c6 hn ), n \u2208 N ."
+              },
+              {
+                "ref": [
+                  {
+                    "@type": "figure",
+                    "@target": "#fig_1",
+                    "#text": "2"
+                  },
+                  {
+                    "@type": "formula",
+                    "@target": "#formula_18",
+                    "#text": "9"
+                  }
+                ],
+                "#text": "In Fig. , the SIR ( ) is plotted for different numbers of RIS elements. Notice the unexpected trend of SIR decreasing with increasing N. Since \u0398 is designed without considering interference, constructive additions of interference can occur at R (this probability grows with N). We can see that even for a vast number of RIS elements, the SIR is \u223c 2dB, i.e., there is not much difference between desired signal power and the interference power. Hence, the latter cannot simply be neglected compared to the former. Moreover, the choice of \u0398 is not optimal overall. The solution is to employ some degrees of freedom RIS offers to suppress this interference. With this goal in mind, we next develop an optimization framework to maximize the achievable rate while minimizing this interference."
+              }
+            ],
+            "formula": [
+              {
+                "@xml:id": "formula_4",
+                "label": "2",
+                "#text": "P h = \u03b2(1 -\u03b1)P T , ("
+              },
+              {
+                "@xml:id": "formula_5",
+                "#text": ")"
+              },
+              {
+                "@xml:id": "formula_6",
+                "label": "(3)",
+                "#text": "y T = \u221a P (f 1 + g T 1 \u0398h)s,"
+              },
+              {
+                "@xml:id": "formula_7",
+                "#text": "\u03c6 n \u2208 [-\u03c0, \u03c0] is the n-th reflector phase-shift."
+              },
+              {
+                "@xml:id": "formula_8",
+                "label": "4",
+                "#text": "\u03b2(1 -\u03b1)P T \u2265 P b , ("
+              },
+              {
+                "@xml:id": "formula_9",
+                "#text": ")"
+              },
+              {
+                "@xml:id": "formula_10",
+                "label": "5",
+                "#text": "y R = \u221a \u03b1Pu(f 1 + g T 1 \u0398h)sq + \u221a P (f 2 + g T 2 \u0398h)s + z , ("
+              },
+              {
+                "@xml:id": "formula_11",
+                "#text": ")"
+              },
+              {
+                "@xml:id": "formula_12",
+                "label": "6",
+                "#text": "\u0233R = y R - \u221a P (f 2 + g T 2 \u0398h)\u015d, = \u221a \u03b1Pu(f 1 + g T 1 \u0398h)sq + \u221a P (f 2 + g T 2 \u0398h)(s -\u015d) + z , ("
+              },
+              {
+                "@xml:id": "formula_13",
+                "#text": ")"
+              },
+              {
+                "@xml:id": "formula_14",
+                "label": "7",
+                "#text": "\u03b3 = \u03b1P |u(f 1 + g T 1 \u0398h)| 2 2(1 -\u03c1)P |(f 2 + g T 2 \u0398h)| 2 + \u03c3 2 z , ("
+              },
+              {
+                "@xml:id": "formula_15",
+                "#text": ")"
+              },
+              {
+                "@xml:id": "formula_16",
+                "label": "8",
+                "#text": "R = log 2 (1 + \u03b3) bps/Hz . ("
+              },
+              {
+                "@xml:id": "formula_17",
+                "#text": ")"
+              },
+              {
+                "@xml:id": "formula_18",
+                "label": "9",
+                "#text": "SIR = \u03b1|u f 1 + g T 1 \u0398 h 1 | 2 |f 2 + g T 2 \u0398 h| 2 , ("
+              },
+              {
+                "@xml:id": "formula_19",
+                "#text": ")"
+              },
+              {
+                "@xml:id": "formula_20",
+                "#text": "|f 1 + g T 1 \u0398 h 1 |."
+              }
+            ]
+          },
+          {
+            "@xmlns": "http://www.tei-c.org/ns/1.0",
+            "head": "III. PROBLEM FORMULATION AND PROPOSED SOLUTION A. Problem Formulation",
+            "p": [
+              "We aim to optimize the RIS phase-shifts to maximize both the received signal power at T and the achievable rate/SINR at R. Thus, an optimization problem is formulated as follows:",
+              "Here, the constraint (10b) guarantees the minimum operating energy requirement for T. Due to the non-convex objective function and the constraint, the problem P 1 cannot be solved by using conventional convex optimization methods. Therefore, we next convexify these non-convex objective and the constraint to solve the optimization problem, P 1 ."
+            ],
+            "formula": [
+              {
+                "@xml:id": "formula_21",
+                "label": "10a",
+                "#text": "P 1 : maximize \u0398 log 2 (1 + \u03b3), ("
+              },
+              {
+                "@xml:id": "formula_22",
+                "#text": ")"
+              },
+              {
+                "@xml:id": "formula_23",
+                "label": "(10c)",
+                "#text": "subject to \u03b2(1 -\u03b1)P |f 1 + g T 1 \u0398h| 2 \u2265 P b , (10b) |\u03b8 n | \u2264 1."
+              }
+            ]
+          },
+          {
+            "@xmlns": "http://www.tei-c.org/ns/1.0",
+            "head": "B. Proposed Solution",
+            "p": [
+              {
+                "ref": {
+                  "@type": "formula",
+                  "@target": "#formula_14",
+                  "#text": "7"
+                },
+                "#text": "First, we define a 1 diag(ug T 1 )h and a 2 diag(g T 2 )h. Thereby, the SINR in ( ) is rearranged as"
+              },
+              {
+                "ref": {
+                  "@type": "bibr",
+                  "@target": "#b18",
+                  "#text": "[19]"
+                },
+                "#text": "where b 1 uf 1 , b 2 f 2 , and \u03b8 = [\u03b8 1 , . . . , \u03b8 N ] T . Then, P 1 can be treated as a fractional programming problem . We next apply a quadratic transform to the objective function of"
+              },
+              "where \u03bb is an auxiliary variable introduced by the quadratic transformation. Thereby, we alternatively optimize \u03b8 and \u03bb.",
+              {
+                "ref": {
+                  "@type": "bibr",
+                  "@target": "#b18",
+                  "#text": "[19"
+                },
+                "#text": "For a given \u03b8 , the optimal \u03bb is found in closed-form as ]"
+              },
+              "Remark 2: Without compromising generality, we confine that the phase-shift vector, \u03b8 , with the channel responses to produce a non-negative real desired signal term, i.e., |b 1 + \u03b8 H a 1 | \u2248 Re{b 1 + \u03b8 H a 1 }. Our simulation results also demonstrate the validity of this approach. This is because our approach iteratively maximizes the achievable rate/SINR by co-phasing the desired signal component while reducing interference.",
+              {
+                "ref": {
+                  "@type": "bibr",
+                  "@target": "#b11",
+                  "#text": "(12)"
+                },
+                "#text": "In this optimization problem, we must optimize \u03b8 for a given \u03bb. First, by expanding |b i + \u03b8 a i | 2 and then applying several mathematical manipulations, the objective function in  can be rearranged as"
+              },
+              "where U, v, and c are defined as",
+              "Next, the corresponding optimization problem can be given as",
+              "where P Lin T is the linearized received signal power at T, given as (Appendix)",
+              "Authorized licensed use limited to: NUST School of Electrical Engineering and Computer Science (SEECS). Downloaded on June 13,2025 at 20:39:56 UTC from IEEE Xplore. Restrictions apply."
+            ],
+            "formula": [
+              {
+                "@xml:id": "formula_24",
+                "label": "11",
+                "#text": "\u03b3 = \u03b1P |b 1 + \u03b8 H a 1 | 2 2(1 -\u03c1)P |b 2 + \u03b8 H a 2 | 2 + \u03c3 2 z , ("
+              },
+              {
+                "@xml:id": "formula_25",
+                "#text": ")"
+              },
+              {
+                "@xml:id": "formula_26",
+                "label": "12",
+                "#text": "P 1 as f (\u03b8 , \u03bb) = log 2 1 + 2\u03bb \u221a \u03b1PRe b 1 + \u03b8 H a 1 -\u03bb 2 2(1 -\u03c1)P |b 2 + \u03b8 H a 2 | 2 + \u03c3 2 z , ("
+              },
+              {
+                "@xml:id": "formula_27",
+                "#text": ")"
+              },
+              {
+                "@xml:id": "formula_28",
+                "label": "13",
+                "#text": "\u03bb o = \u03b1 \u221a P Re b 1 + \u03b8 H a 1 ln(2) 2(1 -\u03c1)P |b 2 + \u03b8 H a 2 | 2 + \u03c3 2 z . ("
+              },
+              {
+                "@xml:id": "formula_29",
+                "#text": ")"
+              },
+              {
+                "@xml:id": "formula_30",
+                "label": "14",
+                "#text": "f (\u03b8 ) = log 2 1 -\u03b8 H U\u03b8 + 2Re \u03b8 H v + c , ("
+              },
+              {
+                "@xml:id": "formula_31",
+                "#text": ")"
+              },
+              {
+                "@xml:id": "formula_32",
+                "label": "15b",
+                "#text": "U 2(\u03bb o ) 2 (1 -\u03c1)P a 2 a H 2 , (15a) v 2\u03bb o \u221a \u03b1P a 1 -2(\u03bb o ) 2 (1 -\u03c1)Pb * 2 a 2 , ("
+              },
+              {
+                "@xml:id": "formula_33",
+                "#text": ")"
+              },
+              {
+                "@xml:id": "formula_34",
+                "#text": "c 2\u03bb o \u221a \u03b1P Re{b 1 } -(\u03bb o ) 2 2(1 -\u03c1)P|b 2 | 2 + \u03c3 2 z . (15c)"
+              },
+              {
+                "@xml:id": "formula_35",
+                "label": "16a",
+                "#text": "P 2 : maximize \u03b8 f (\u03b8 ), ("
+              },
+              {
+                "@xml:id": "formula_36",
+                "#text": ")"
+              },
+              {
+                "@xml:id": "formula_37",
+                "label": "(16c)",
+                "#text": "subject to \u03b2(1 -\u03b1)P Lin T \u2265 P b , (16b) |\u03b8 n | \u2264 1,"
+              },
+              {
+                "@xml:id": "formula_38",
+                "label": "17",
+                "#text": "P Lin T = \u03b8 H i-1 U 0 \u03b8 i-1 + 2Re \u03b8 H i-1 v 0 + c 0 + U 0 + U H 0 \u03b8 i-1 + 2Re{v 0 } H (\u03b8 i -\u03b8 i-1 ), ("
+              },
+              {
+                "@xml:id": "formula_39",
+                "#text": ")"
+              }
+            ]
+          },
+          {
+            "@xmlns": "http://www.tei-c.org/ns/1.0",
+            "head": "Algorithm 1 Algorithm for Phase-Shift Optimization",
+            "p": "Initialization: Initialize \u03b8 to a feasible value."
+          },
+          {
+            "@xmlns": "http://www.tei-c.org/ns/1.0",
+            "head": "Repeat",
+            "p": [
+              {
+                "ref": {
+                  "@type": "bibr",
+                  "@target": "#b12",
+                  "#text": "(13)"
+                },
+                "#text": "Step 1: Update \u03bb by ."
+              },
+              {
+                "ref": {
+                  "@type": "formula",
+                  "@target": "#formula_35",
+                  "#text": "16"
+                },
+                "#text": "Step 2: Update \u03b8 by solving P 2 in ( ). Until the value of the objective function converges. Output: The optimal phase-shift matrix \u0398 o ."
+              },
+              "where a 0 diag(g T 1 )h, b 0 f 1 , U 0 P a 0 a H 0 , v 0 Pb * 0 a 0 , and c 0 P |b 0 | 2 . Besides, \u03b8 i and \u03b8 i-1 are the current and the previous iteration values of \u03b8.",
+              {
+                "ref": {
+                  "@type": "bibr",
+                  "@target": "#b19",
+                  "#text": "[20]"
+                },
+                "#text": "Because a 2 a H 2 is a positive-definite matrix, U is also a positive-definite matrix. Hence, the objective function, f (\u03b8 ), is a quadratic concave function of \u03b8 . Consequently, P 2 can be solved as a quadratically constrained quadratic program (QCQP) . Algorithm 1 gives the solution of P 2 ."
+              },
+              {
+                "ref": {
+                  "@type": "bibr",
+                  "@target": "#b10",
+                  "#text": "(11)"
+                },
+                "#text": "Remark 3: The Algorithm 1 presents the proposed optimization technique for solving \u0398 once the original problem, P 1 , is converted into a convex problem. P 1 is iteratively solved using an alternating optimization technique. First, we quantify the SINR in  upon initializing \u0398, and then we update a better solution for \u0398 in each iteration. This procedure is repeated until the normalized objective function increases less than = 10 -4 ."
+              },
+              {
+                "ref": {
+                  "@type": "bibr",
+                  "@target": "#b20",
+                  "#text": "[21]"
+                },
+                "#text": "Remark 4: Since the tag is a passive device with limited power, P 1 considers a fixed \u03b1 to maintain the minimum power, low cost, and small form factor of the tag . However, \u03b1 can also be optimized at the expense of a simple tag design. Since \u0398 and \u03b1 are independent variables, we can readily use alternative optimization. Thereby, \u0398 and \u03b1 are alternatively optimized until the convergence. We omit the details for brevity."
+              }
+            ]
+          },
+          {
+            "@xmlns": "http://www.tei-c.org/ns/1.0",
+            "head": "IV. SIMULATION RESULTS",
+            "p": [
+              {
+                "ref": [
+                  {
+                    "@type": "bibr",
+                    "@target": "#b21",
+                    "#text": "[22,"
+                  },
+                  {
+                    "@type": "bibr",
+                    "#text": "Table B.1.2.1]"
+                  }
+                ],
+                "#text": "This section presents simulation results to evaluate the system performance. We adopt the 3GPP UMi model to model the large-scale fading \u03b6 a with f c = 3GHz operating frequency . Moreover, AWGN variance is modeled as \u03c3 2 z = 10 log 10 (N 0 BN f ) dBm, where N 0 = -174dBm/Hz, B = 10MHz is the bandwidth, and N f = 10dB is the noise figure. Additionally, the activation threshold of the tag, P b , is set to -20dBm and unless otherwise specified, the Nakagami-m parameter, m a , is set to 1."
+              },
+              {
+                "ref": [
+                  {
+                    "@type": "bibr",
+                    "@target": "#b9",
+                    "#text": "(10)"
+                  },
+                  {
+                    "@type": "figure",
+                    "@target": "#fig_3",
+                    "#text": "4"
+                  },
+                  {
+                    "@type": "figure",
+                    "@target": "#fig_3",
+                    "#text": "4"
+                  },
+                  {
+                    "@type": "figure",
+                    "@target": "#fig_6",
+                    "#text": "5"
+                  }
+                ],
+                "#text": "We consider four different scenarios of \u0398 including three benchmarks and the proposed scheme: C 1 Random: \u0398 is randomly designed. C 2 Ideal -Desired power enhancement with perfect SIC assumption: i.e., R cancels interference from both direct and RIS cascaded links perfectly. In this case, the optimal choice of phases is given by \u0398 found in Remark 1, where the desired received power at T is maximized. This ideal case yields a valuable upper bound for performance evaluations. C 3 Imperfect SIC -Omitting the interference but considering imperfect SIC: \u0398 is designed, as per Remark 1, to maximize the received power at T. However, the performances depend on the precision of the SIC operation (i.e., \u03c1 < 1). C 4 Optimal (Proposed) -Desired power enhancement while suppressing the interference: \u0398 is found through the optimization problem  and Algorithm 1.   Fig.  depicts the trade-off between the harvested energy and the achieved rate as a function of the \u03b1 at T with different RIS phase-shift designs for transmitting power P = 20dBm. As \u03b1 approaches 1, T reflects most of the received power and achieves the maximum rate. However, this operating point is infeasible for a passive tag. In contrast, when \u03b1 approaches 0, T harvests most of the received power, and the achieved rate becomes infinitesimal. Hence, for given \u03b1, the rate and harvested power at T can be obtained by traversing the trade-off curve. Because T is passive, it must harvest a minimum power to operate hence \u03b1 \u2208 (0, 1). Fig.  shows that C 4 ensures that T receives more power to be harvested while suppressing the interference, and hence T achieves a higher rate as well, compared to C 1 and C 3 . C 2 represents the ideal performance.  However, proposed C 4 achieves significant gains compared to C 1 and C 3 . Fig.  shows the average achieved rate of T against the transmit power at S for different numbers of RIS elements N. The proposed optimal RIS phase-shift design (C 4 ) performs close to the upper bound C 2 and achieves significant gains (compared to C 1 and C 3 ), as it maximized the received power at T while suppressing the interference from the direct and cascaded links at R. In particular, with P = 20dBm, N = 100, and m a = 1, the achieved rate through the optimal design with perfect SIC (C 2 ), and the proposed optimal one (C 4 ) are respectively 1.35bps/Hz and 0.98bps/Hz. While with the two other Scenarios, random design C 1 and the optimal design where interference is neglected (C 3 ), the achieved rates are respectively 0.2bps/Hz and 0.35bps/Hz. Moreover, the achievable rate trend scales with the severity of the fading model, i.e., high achievable rates for large m values."
+              },
+              "V. CONCLUSION This letter investigated the achievable rate improvements in a RIS-empowered AmBC. We designed optimal RIS phase shifts to simultaneously increase the tag's received power and suppress the direct-and cascaded-RIS link interference. We observed that, with optimal phase shifts, the tag could harvest enough power for its operation and achieve effective rates. Using RIS between the tag and the reader also offers significant gains and is a future research direction."
+            ]
+          },
+          {
+            "@xmlns": "http://www.tei-c.org/ns/1.0",
+            "head": "APPENDIX LINEARIZED RECEIVED POWER P Lin"
+          },
+          {
+            "@xmlns": "http://www.tei-c.org/ns/1.0",
+            "head": "T",
+            "p": [
+              "In order to convert the EH constraint in (10b) to convex form, we first define a 0 diag(g T 1 )h and b 0 f 1 . Thereby, the received power at T, P T = P |f 1 + g T 1 \u0398h| 2 = P |b 0 + \u03b8 H a 0 | 2 , is expanded as follows:",
+              {
+                "ref": {
+                  "@type": "bibr",
+                  "@target": "#b16",
+                  "#text": "(17)"
+                },
+                "#text": "where U 0 P a 0 a H 0 , v 0 Pb * 0 a 0 , and c 0 P |b 0 | 2 . By applying Taylor series linearization techniques, the linearized received power at T is obtained as ."
+              }
+            ],
+            "formula": [
+              {
+                "@xml:id": "formula_40",
+                "label": "18",
+                "#text": "P T = \u03b8 H U 0 \u03b8 + 2Re \u03b8 H v 0 + c 0 , ("
+              },
+              {
+                "@xml:id": "formula_41",
+                "#text": ")"
+              }
+            ]
+          }
+        ],
+        "figure": [
+          {
+            "@xmlns": "http://www.tei-c.org/ns/1.0",
+            "@xml:id": "fig_0",
+            "head": "Fig. 1 .",
+            "label": "1",
+            "figDesc": "Fig.1. An RIS-assisted AmBC system setup. Red lines denote interference links. Here,d h = d 2 x + d 2 y , dg 1 = (d f 1dx ) 2 + d 2 y , dg 2 = (d f 1 + dudx ) 2 + d 2 y ,andd f 2 = d f 1 + du ."
+          },
+          {
+            "@xmlns": "http://www.tei-c.org/ns/1.0",
+            "@xml:id": "fig_1",
+            "head": "Fig. 2 .",
+            "label": "2",
+            "figDesc": "Fig. 2. The SIR for dy = 1m, dx = 8m, d f 1 = 10m, and du = 10m."
+          },
+          {
+            "@xmlns": "http://www.tei-c.org/ns/1.0",
+            "@xml:id": "fig_2",
+            "head": "Fig. 3 .",
+            "label": "3",
+            "figDesc": "Fig.3.The average achievable rate versus distance for P = 20dBm, N = 100, dy = 1m, dx = 1m, du = 10m, \u03b2 = 0.6, \u03b1 = 0.6, and \u03c1 = 0.95."
+          },
+          {
+            "@xmlns": "http://www.tei-c.org/ns/1.0",
+            "@xml:id": "fig_3",
+            "head": "Fig. 4 .",
+            "label": "4",
+            "figDesc": "Fig. 4. The trade-off between the harvested power and the achievable rate for P = 20dBm, N = 100, dx = 8m, dy = 1m, d f 1 = 10m, du = 10m, \u03b2 = 0.6, \u03b1 = 0.6, and \u03c1 = 0.95."
+          },
+          {
+            "@xmlns": "http://www.tei-c.org/ns/1.0",
+            "@xml:id": "fig_4",
+            "head": "Fig. 3",
+            "label": "3",
+            "figDesc": "Fig.3investigates T's activation range under the four scenarios. The received signal power at T is plotted as a function of S -T distance, d f 1 . Note that the RIS in the power-up link allows T to be activated farther away from S than otherwise. Our algorithm increases this range compared to random phase shifts. Since C 2 and C 3 cases optimize \u0398 only considering S-IRS-T channels, both can deliver more power to T, resulting high activation range. Despite having slightly less range than C 2 and C 3 , C 4 increases the tag activation distance compared to the no-RIS case and C 1 .Fig.4depicts the trade-off between the harvested energy and the achieved rate as a function of the \u03b1 at T with different RIS phase-shift designs for transmitting power P = 20dBm. As \u03b1 approaches 1, T reflects most of the received power and achieves the maximum rate. However, this operating point is infeasible for a passive tag. In contrast, when \u03b1 approaches 0, T harvests most of the received power, and the achieved rate becomes infinitesimal. Hence, for given \u03b1, the rate and harvested power at T can be obtained by traversing the trade-off curve. Because T is passive, it must harvest a minimum power to operate hence \u03b1 \u2208 (0, 1). Fig.4shows that C 4 ensures that T receives more power to be harvested while suppressing the interference, and hence T achieves a higher rate as well, compared to C 1 and C 3 . C 2 represents the ideal performance."
+          },
+          {
+            "@xmlns": "http://www.tei-c.org/ns/1.0",
+            "@xml:id": "fig_5",
+            "figDesc": "Authorized licensed use limited to: NUST School of Electrical Engineering and Computer Science (SEECS). Downloaded on June 13,2025 at 20:39:56 UTC from IEEE Xplore. Restrictions apply."
+          },
+          {
+            "@xmlns": "http://www.tei-c.org/ns/1.0",
+            "@xml:id": "fig_6",
+            "head": "Fig. 5 .",
+            "label": "5",
+            "figDesc": "Fig. 5. The achievable rate versus transmit power for N = {50, 100, 200}, dx = 8m, dy = 1m, d f 1 = 10m, du = 10m, \u03b2 = 0.6, \u03b1 = 0.6, and \u03c1 = 0.95."
+          }
+        ],
+        "note": [
+          {
+            "@xmlns": "http://www.tei-c.org/ns/1.0",
+            "@place": "foot",
+            "@n": "1",
+            "@xml:id": "foot_0",
+            "p": "To keep \u03b1 constant, we use constant envelope modulation (M-ary phase shift keying).C. Signal ModelS transmits a modulated carrier signal \u221a Ps, where P is the transmit power and signal s satisfies E{|s|"
+          },
+          {
+            "@xmlns": "http://www.tei-c.org/ns/1.0",
+            "@place": "foot",
+            "@n": "2",
+            "@xml:id": "foot_1",
+            "p": "} = 1. T receives it through the direct channel, f 1 , and the reflective channels of the RIS, g 1 . The received signal at T is given as"
+          },
+          {
+            "@xmlns": "http://www.tei-c.org/ns/1.0",
+            "@place": "foot",
+            "@n": "2",
+            "@xml:id": "foot_2",
+            "p": {
+              "ref": {
+                "@type": "bibr",
+                "@target": "#b16",
+                "#text": "[17]"
+              },
+              "#text": "Without loss of generality, s and its estimate \u015d can be assumed as jointly Gaussian with a certain correlation coefficient, i.e., s = \u03c1\u015d + e, where \u015d \u223c CN (0, 1) and e \u223c CN (0,\u03c3 2 e /[1 + \u03c3 2 e ]) is the estimation error and is statistically independent of \u015d.Authorized licensed use limited to: NUST School of Electrical Engineering and Computer Science (SEECS). Downloaded on June 13,2025 at 20:39:56 UTC from IEEE Xplore. Restrictions apply."
+            }
+          }
+        ]
+      },
+      "back": {
+        "div": [
+          {
+            "@type": "funding",
+            "div": {
+              "p": {
+                "rs": {
+                  "@type": "funder",
+                  "#text": "Huawei Technologies Canada Company, Ltd"
+                },
+                "#text": "This work was supported in part by the . The associate editor coordinating the review of this article and approving it for publication was X. Lei."
+              }
+            }
+          },
+          {
+            "@type": "references",
+            "listBibl": {
+              "biblStruct": [
+                {
+                  "@xml:id": "b0",
+                  "monogr": {
+                    "title": {
+                      "@level": "m",
+                      "@type": "main",
+                      "#text": "Ambient Backscatter Communication Networks"
+                    },
+                    "author": [
+                      {
+                        "persName": {
+                          "forename": [
+                            {
+                              "@type": "first",
+                              "#text": "D"
+                            },
+                            {
+                              "@type": "middle",
+                              "#text": "T"
+                            }
+                          ],
+                          "surname": "Hoang"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "D"
+                          },
+                          "surname": "Niyato"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": [
+                            {
+                              "@type": "first",
+                              "#text": "D"
+                            },
+                            {
+                              "@type": "middle",
+                              "#text": "I"
+                            }
+                          ],
+                          "surname": "Kim"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": [
+                            {
+                              "@type": "first",
+                              "#text": "N"
+                            },
+                            {
+                              "@type": "middle",
+                              "#text": "V"
+                            }
+                          ],
+                          "surname": "Huynh"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "S"
+                          },
+                          "surname": "Gong"
+                        }
+                      }
+                    ],
+                    "imprint": {
+                      "date": {
+                        "@type": "published",
+                        "@when": "2020",
+                        "#text": "2020"
+                      },
+                      "publisher": "Cambridge Univ. Press",
+                      "pubPlace": "Cambridge, U.K."
+                    }
+                  }
+                },
+                {
+                  "@xml:id": "b1",
+                  "analytic": {
+                    "title": {
+                      "@level": "a",
+                      "@type": "main",
+                      "#text": "Large-scale wirelesspowered networks with backscatter communications-A comprehensive survey"
+                    },
+                    "author": [
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "F"
+                          },
+                          "surname": "Rezaei"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "C"
+                          },
+                          "surname": "Tellambura"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "S"
+                          },
+                          "surname": "Herath"
+                        }
+                      }
+                    ]
+                  },
+                  "monogr": {
+                    "title": {
+                      "@level": "j",
+                      "#text": "IEEE Open J. Commun. Soc"
+                    },
+                    "imprint": {
+                      "biblScope": [
+                        {
+                          "@unit": "volume",
+                          "#text": "1"
+                        },
+                        {
+                          "@unit": "page",
+                          "@from": "1100",
+                          "@to": "1130"
+                        }
+                      ],
+                      "date": {
+                        "@type": "published",
+                        "@when": "2020",
+                        "#text": "2020"
+                      }
+                    }
+                  }
+                },
+                {
+                  "@xml:id": "b2",
+                  "analytic": {
+                    "title": {
+                      "@level": "a",
+                      "@type": "main",
+                      "#text": "Intelligent reflecting surface enhanced wireless network via joint active and passive beamforming"
+                    },
+                    "author": [
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "Q"
+                          },
+                          "surname": "Wu"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "R"
+                          },
+                          "surname": "Zhang"
+                        }
+                      }
+                    ]
+                  },
+                  "monogr": {
+                    "title": {
+                      "@level": "j",
+                      "#text": "IEEE Trans. Wireless Commun"
+                    },
+                    "imprint": {
+                      "biblScope": [
+                        {
+                          "@unit": "volume",
+                          "#text": "18"
+                        },
+                        {
+                          "@unit": "issue",
+                          "#text": "11"
+                        },
+                        {
+                          "@unit": "page",
+                          "@from": "5394",
+                          "@to": "5409"
+                        }
+                      ],
+                      "date": {
+                        "@type": "published",
+                        "@when": "2019-11",
+                        "#text": "Nov. 2019"
+                      }
+                    }
+                  }
+                },
+                {
+                  "@xml:id": "b3",
+                  "analytic": {
+                    "title": {
+                      "@level": "a",
+                      "@type": "main",
+                      "#text": "IRS-assisted ambient backscatter communications utilizing deep reinforcement learning"
+                    },
+                    "author": [
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "X"
+                          },
+                          "surname": "Jia"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "X"
+                          },
+                          "surname": "Zhou"
+                        }
+                      }
+                    ]
+                  },
+                  "monogr": {
+                    "title": {
+                      "@level": "j",
+                      "#text": "IEEE Wireless Commun. Lett"
+                    },
+                    "imprint": {
+                      "biblScope": [
+                        {
+                          "@unit": "volume",
+                          "#text": "10"
+                        },
+                        {
+                          "@unit": "issue",
+                          "#text": "11"
+                        },
+                        {
+                          "@unit": "page",
+                          "@from": "2374",
+                          "@to": "2378"
+                        }
+                      ],
+                      "date": {
+                        "@type": "published",
+                        "@when": "2021-11",
+                        "#text": "Nov. 2021"
+                      }
+                    }
+                  }
+                },
+                {
+                  "@xml:id": "b4",
+                  "analytic": {
+                    "title": {
+                      "@level": "a",
+                      "@type": "main",
+                      "#text": "Design of intelligent reflecting surface (IRS)-boosted ambient backscatter systems"
+                    },
+                    "author": [
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "S"
+                          },
+                          "surname": "Idrees"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "X"
+                          },
+                          "surname": "Jia"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "S"
+                          },
+                          "surname": "Durrani"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "X"
+                          },
+                          "surname": "Zhou"
+                        }
+                      }
+                    ]
+                  },
+                  "monogr": {
+                    "title": {
+                      "@level": "j",
+                      "#text": "IEEE Access"
+                    },
+                    "imprint": {
+                      "biblScope": [
+                        {
+                          "@unit": "volume",
+                          "#text": "10"
+                        },
+                        {
+                          "@unit": "page",
+                          "@from": "65000",
+                          "@to": "65010"
+                        }
+                      ],
+                      "date": {
+                        "@type": "published",
+                        "@when": "2022",
+                        "#text": "2022"
+                      }
+                    }
+                  }
+                },
+                {
+                  "@xml:id": "b5",
+                  "analytic": {
+                    "title": {
+                      "@level": "a",
+                      "@type": "main",
+                      "#text": "Backscatter communication assisted by reconfigurable intelligent surfaces"
+                    },
+                    "author": [
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "Y.-C"
+                          },
+                          "surname": "Liang"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "Q"
+                          },
+                          "surname": "Zhang"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "J"
+                          },
+                          "surname": "Wang"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "R"
+                          },
+                          "surname": "Long"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "H"
+                          },
+                          "surname": "Zhou"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "G"
+                          },
+                          "surname": "Yang"
+                        }
+                      }
+                    ]
+                  },
+                  "monogr": {
+                    "title": {
+                      "@level": "m",
+                      "#text": "Proc. IEEE"
+                    },
+                    "meeting": "IEEE",
+                    "imprint": {
+                      "date": {
+                        "@type": "published",
+                        "@when": "2022-09",
+                        "#text": "Sep. 2022"
+                      },
+                      "biblScope": [
+                        {
+                          "@unit": "volume",
+                          "#text": "110"
+                        },
+                        {
+                          "@unit": "page",
+                          "@from": "1339",
+                          "@to": "1357"
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "@xml:id": "b6",
+                  "analytic": {
+                    "title": {
+                      "@level": "a",
+                      "@type": "main",
+                      "#text": "Short-range ambient backscatter communication using reconfigurable intelligent surfaces"
+                    },
+                    "author": [
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "M"
+                          },
+                          "surname": "Nemati"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "J"
+                          },
+                          "surname": "Ding"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "J"
+                          },
+                          "surname": "Choi"
+                        }
+                      }
+                    ]
+                  },
+                  "monogr": {
+                    "title": {
+                      "@level": "m",
+                      "#text": "Proc. IEEE Wireless Commun. Netw. Conf. (WCNC)"
+                    },
+                    "meeting": "IEEE Wireless Commun. Netw. Conf. (WCNC)",
+                    "imprint": {
+                      "date": {
+                        "@type": "published",
+                        "@when": "2020-05",
+                        "#text": "May 2020"
+                      },
+                      "biblScope": {
+                        "@unit": "page",
+                        "@from": "1",
+                        "@to": "6"
+                      }
+                    }
+                  }
+                },
+                {
+                  "@xml:id": "b7",
+                  "analytic": {
+                    "title": {
+                      "@level": "a",
+                      "@type": "main",
+                      "#text": "Performance of ambient backscatter systems using reconfigurable intelligent surface"
+                    },
+                    "author": {
+                      "persName": {
+                        "forename": {
+                          "@type": "first",
+                          "#text": "Y"
+                        },
+                        "surname": "Chen"
+                      }
+                    }
+                  },
+                  "monogr": {
+                    "title": {
+                      "@level": "j",
+                      "#text": "IEEE Commun. Lett"
+                    },
+                    "imprint": {
+                      "biblScope": [
+                        {
+                          "@unit": "volume",
+                          "#text": "25"
+                        },
+                        {
+                          "@unit": "issue",
+                          "#text": "8"
+                        },
+                        {
+                          "@unit": "page",
+                          "@from": "2536",
+                          "@to": "2539"
+                        }
+                      ],
+                      "date": {
+                        "@type": "published",
+                        "@when": "2021-08",
+                        "#text": "Aug. 2021"
+                      }
+                    }
+                  }
+                },
+                {
+                  "@xml:id": "b8",
+                  "analytic": {
+                    "title": {
+                      "@level": "a",
+                      "@type": "main",
+                      "#text": "Reconfigurable intelligent surface-assisted ambient backscatter communications-Experimental assessment"
+                    },
+                    "author": [
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "R"
+                          },
+                          "surname": "Fara"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "D.-T"
+                          },
+                          "surname": "Phan-Huy"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "P"
+                          },
+                          "surname": "Ratajczak"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "A"
+                          },
+                          "surname": "Ourir"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": [
+                            {
+                              "@type": "first",
+                              "#text": "M"
+                            },
+                            {
+                              "@type": "middle",
+                              "#text": "Di"
+                            }
+                          ],
+                          "surname": "Renzo"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": [
+                            {
+                              "@type": "first",
+                              "#text": "J"
+                            },
+                            {
+                              "@type": "middle",
+                              "#text": "De"
+                            }
+                          ],
+                          "surname": "Rosny"
+                        }
+                      }
+                    ]
+                  },
+                  "monogr": {
+                    "title": {
+                      "@level": "m",
+                      "#text": "Proc. IEEE Int. Conf. Commun. Workshops (ICC Workshops)"
+                    },
+                    "meeting": "IEEE Int. Conf. Commun. Workshops (ICC Workshops)",
+                    "imprint": {
+                      "date": {
+                        "@type": "published",
+                        "@when": "2021-06",
+                        "#text": "Jun. 2021"
+                      },
+                      "biblScope": {
+                        "@unit": "page",
+                        "@from": "1",
+                        "@to": "7"
+                      }
+                    }
+                  }
+                },
+                {
+                  "@xml:id": "b9",
+                  "analytic": {
+                    "title": {
+                      "@level": "a",
+                      "@type": "main",
+                      "#text": "Exploiting intelligent reflecting surface for energy efficiency in ambient backscatter communicationenabled NOMA networks"
+                    },
+                    "author": [
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "Y"
+                          },
+                          "surname": "Zhuang"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "X"
+                          },
+                          "surname": "Li"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "H"
+                          },
+                          "surname": "Ji"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "H"
+                          },
+                          "surname": "Zhang"
+                        }
+                      }
+                    ]
+                  },
+                  "monogr": {
+                    "title": {
+                      "@level": "j",
+                      "#text": "IEEE Trans. Green Commun. Netw"
+                    },
+                    "imprint": {
+                      "biblScope": [
+                        {
+                          "@unit": "volume",
+                          "#text": "6"
+                        },
+                        {
+                          "@unit": "issue",
+                          "#text": "1"
+                        },
+                        {
+                          "@unit": "page",
+                          "@from": "163",
+                          "@to": "174"
+                        }
+                      ],
+                      "date": {
+                        "@type": "published",
+                        "@when": "2022-03",
+                        "#text": "Mar. 2022"
+                      }
+                    }
+                  }
+                },
+                {
+                  "@xml:id": "b10",
+                  "analytic": {
+                    "title": {
+                      "@level": "a",
+                      "@type": "main",
+                      "#text": "Symbiotic radio: A new communication paradigm for passive Internet of Things"
+                    },
+                    "author": [
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "R"
+                          },
+                          "surname": "Long"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "Y.-C"
+                          },
+                          "surname": "Liang"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "H"
+                          },
+                          "surname": "Guo"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "G"
+                          },
+                          "surname": "Yang"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "R"
+                          },
+                          "surname": "Zhang"
+                        }
+                      }
+                    ]
+                  },
+                  "monogr": {
+                    "title": {
+                      "@level": "j",
+                      "#text": "IEEE Internet Things J"
+                    },
+                    "imprint": {
+                      "biblScope": [
+                        {
+                          "@unit": "volume",
+                          "#text": "7"
+                        },
+                        {
+                          "@unit": "issue",
+                          "#text": "2"
+                        },
+                        {
+                          "@unit": "page",
+                          "@from": "1350",
+                          "@to": "1363"
+                        }
+                      ],
+                      "date": {
+                        "@type": "published",
+                        "@when": "2020-02",
+                        "#text": "Feb. 2020"
+                      }
+                    }
+                  }
+                },
+                {
+                  "@xml:id": "b11",
+                  "analytic": {
+                    "title": {
+                      "@level": "a",
+                      "@type": "main",
+                      "#text": "Blind channel estimation for ambient backscatter communication systems"
+                    },
+                    "author": [
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "S"
+                          },
+                          "surname": "Ma"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "G"
+                          },
+                          "surname": "Wang"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "R"
+                          },
+                          "surname": "Fan"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "C"
+                          },
+                          "surname": "Tellambura"
+                        }
+                      }
+                    ]
+                  },
+                  "monogr": {
+                    "title": {
+                      "@level": "j",
+                      "#text": "IEEE Commun. Lett"
+                    },
+                    "imprint": {
+                      "biblScope": [
+                        {
+                          "@unit": "volume",
+                          "#text": "22"
+                        },
+                        {
+                          "@unit": "issue",
+                          "#text": "6"
+                        },
+                        {
+                          "@unit": "page",
+                          "@from": "1296",
+                          "@to": "1299"
+                        }
+                      ],
+                      "date": {
+                        "@type": "published",
+                        "@when": "2018-06",
+                        "#text": "Jun. 2018"
+                      }
+                    }
+                  }
+                },
+                {
+                  "@xml:id": "b12",
+                  "analytic": {
+                    "title": {
+                      "@level": "a",
+                      "@type": "main",
+                      "#text": "MIMO broadcasting for simultaneous wireless information and power transfer"
+                    },
+                    "author": [
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "R"
+                          },
+                          "surname": "Zhang"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": [
+                            {
+                              "@type": "first",
+                              "#text": "C"
+                            },
+                            {
+                              "@type": "middle",
+                              "#text": "K"
+                            }
+                          ],
+                          "surname": "Ho"
+                        }
+                      }
+                    ]
+                  },
+                  "monogr": {
+                    "title": {
+                      "@level": "j",
+                      "#text": "IEEE Trans. Wireless Commun"
+                    },
+                    "imprint": {
+                      "biblScope": [
+                        {
+                          "@unit": "volume",
+                          "#text": "12"
+                        },
+                        {
+                          "@unit": "issue",
+                          "#text": "5"
+                        },
+                        {
+                          "@unit": "page",
+                          "@from": "1989",
+                          "@to": "2001"
+                        }
+                      ],
+                      "date": {
+                        "@type": "published",
+                        "@when": "2013-05",
+                        "#text": "May 2013"
+                      }
+                    }
+                  }
+                },
+                {
+                  "@xml:id": "b13",
+                  "analytic": {
+                    "title": {
+                      "@level": "a",
+                      "@type": "main",
+                      "#text": "Simultaneous information and power transfer under a non-linear RF energy harvesting model"
+                    },
+                    "author": [
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "X"
+                          },
+                          "surname": "Xu"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "A"
+                          },
+                          "surname": "\u00d6z\u00e7elikkale"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "T"
+                          },
+                          "surname": "Mckelvey"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "M"
+                          },
+                          "surname": "Viberg"
+                        }
+                      }
+                    ]
+                  },
+                  "monogr": {
+                    "title": {
+                      "@level": "m",
+                      "#text": "Proc. IEEE Int. Conf. Commun. Workshops (ICC Workshops"
+                    },
+                    "meeting": "IEEE Int. Conf. Commun. Workshops (ICC Workshops",
+                    "imprint": {
+                      "date": {
+                        "@type": "published",
+                        "@when": "2017",
+                        "#text": "2017"
+                      },
+                      "biblScope": {
+                        "@unit": "page",
+                        "@from": "179",
+                        "@to": "184"
+                      }
+                    }
+                  }
+                },
+                {
+                  "@xml:id": "b14",
+                  "analytic": {
+                    "title": {
+                      "@level": "a",
+                      "@type": "main",
+                      "#text": "Mutualistic cooperative ambient backscatter communications under hardware impairments"
+                    },
+                    "author": [
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "Y"
+                          },
+                          "surname": "Ye"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "L"
+                          },
+                          "surname": "Shi"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "X"
+                          },
+                          "surname": "Chu"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "G"
+                          },
+                          "surname": "Lu"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "S"
+                          },
+                          "surname": "Sun"
+                        }
+                      }
+                    ],
+                    "idno": {
+                      "@type": "DOI",
+                      "#text": "10.1109/TCOMM.2022.3201119"
+                    }
+                  },
+                  "monogr": {
+                    "title": {
+                      "@level": "j",
+                      "#text": "IEEE Trans. Commun., early access"
+                    },
+                    "imprint": {
+                      "date": {
+                        "@type": "published",
+                        "@when": "2022-08-24",
+                        "#text": "Aug. 24, 2022"
+                      }
+                    }
+                  }
+                },
+                {
+                  "@xml:id": "b15",
+                  "analytic": {
+                    "title": {
+                      "@level": "a",
+                      "@type": "main",
+                      "#text": "Performance analysis and resource allocations for a WPCN with a new nonlinear energy harvester model"
+                    },
+                    "author": [
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "D"
+                          },
+                          "surname": "Wang"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "F"
+                          },
+                          "surname": "Rezaei"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "C"
+                          },
+                          "surname": "Tellambura"
+                        }
+                      }
+                    ]
+                  },
+                  "monogr": {
+                    "title": {
+                      "@level": "j",
+                      "#text": "IEEE Open J. Commun. Soc"
+                    },
+                    "imprint": {
+                      "biblScope": [
+                        {
+                          "@unit": "volume",
+                          "#text": "1"
+                        },
+                        {
+                          "@unit": "page",
+                          "@from": "1403",
+                          "@to": "1424"
+                        }
+                      ],
+                      "date": {
+                        "@type": "published",
+                        "@when": "2020",
+                        "#text": "2020"
+                      }
+                    }
+                  }
+                },
+                {
+                  "@xml:id": "b16",
+                  "monogr": {
+                    "author": {
+                      "persName": {
+                        "forename": [
+                          {
+                            "@type": "first",
+                            "#text": "S"
+                          },
+                          {
+                            "@type": "middle",
+                            "#text": "M"
+                          }
+                        ],
+                        "surname": "Kay"
+                      }
+                    },
+                    "title": {
+                      "@level": "m",
+                      "#text": "Fundamentals of Statistical Signal Processing: Estimation Theory"
+                    },
+                    "meeting": {
+                      "address": {
+                        "addrLine": "Englewood Cliffs, NJ, USA"
+                      }
+                    },
+                    "imprint": {
+                      "publisher": "Prentice-Hall",
+                      "date": {
+                        "@type": "published",
+                        "@when": "1993",
+                        "#text": "1993"
+                      }
+                    }
+                  }
+                },
+                {
+                  "@xml:id": "b17",
+                  "analytic": {
+                    "title": {
+                      "@level": "a",
+                      "@type": "main",
+                      "#text": "Performance analysis of large intelligent surface aided backscatter communication systems"
+                    },
+                    "author": [
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "W"
+                          },
+                          "surname": "Zhao"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "G"
+                          },
+                          "surname": "Wang"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "S"
+                          },
+                          "surname": "Atapattu"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": [
+                            {
+                              "@type": "first",
+                              "#text": "T"
+                            },
+                            {
+                              "@type": "middle",
+                              "#text": "A"
+                            }
+                          ],
+                          "surname": "Tsiftsis"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "X"
+                          },
+                          "surname": "Ma"
+                        }
+                      }
+                    ]
+                  },
+                  "monogr": {
+                    "title": {
+                      "@level": "j",
+                      "#text": "IEEE Wireless Commun. Lett"
+                    },
+                    "imprint": {
+                      "biblScope": [
+                        {
+                          "@unit": "volume",
+                          "#text": "9"
+                        },
+                        {
+                          "@unit": "issue",
+                          "#text": "7"
+                        },
+                        {
+                          "@unit": "page",
+                          "@from": "962",
+                          "@to": "966"
+                        }
+                      ],
+                      "date": {
+                        "@type": "published",
+                        "@when": "2020-07",
+                        "#text": "Jul. 2020"
+                      }
+                    }
+                  }
+                },
+                {
+                  "@xml:id": "b18",
+                  "analytic": {
+                    "title": {
+                      "@level": "a",
+                      "@type": "main",
+                      "#text": "Fractional programming for communication systems-Part I: Power control and beamforming"
+                    },
+                    "author": [
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "K"
+                          },
+                          "surname": "Shen"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "W"
+                          },
+                          "surname": "Yu"
+                        }
+                      }
+                    ]
+                  },
+                  "monogr": {
+                    "title": {
+                      "@level": "j",
+                      "#text": "IEEE Trans. Signal Process"
+                    },
+                    "imprint": {
+                      "biblScope": [
+                        {
+                          "@unit": "volume",
+                          "#text": "66"
+                        },
+                        {
+                          "@unit": "issue",
+                          "#text": "10"
+                        },
+                        {
+                          "@unit": "page",
+                          "@from": "2616",
+                          "@to": "2630"
+                        }
+                      ],
+                      "date": {
+                        "@type": "published",
+                        "@when": "2018-05",
+                        "#text": "May 2018"
+                      }
+                    }
+                  }
+                },
+                {
+                  "@xml:id": "b19",
+                  "monogr": {
+                    "author": [
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "S"
+                          },
+                          "surname": "Boyd"
+                        }
+                      },
+                      {
+                        "persName": {
+                          "forename": {
+                            "@type": "first",
+                            "#text": "L"
+                          },
+                          "surname": "Vandenberghe"
+                        }
+                      }
+                    ],
+                    "title": {
+                      "@level": "m",
+                      "#text": "Convex Optimization"
+                    },
+                    "meeting": {
+                      "address": {
+                        "addrLine": "Cambridge, U.K."
+                      }
+                    },
+                    "imprint": {
+                      "publisher": "Cambridge Univ. Press",
+                      "date": {
+                        "@type": "published",
+                        "@when": "2004-03",
+                        "#text": "Mar. 2004"
+                      }
+                    }
+                  }
+                },
+                {
+                  "@xml:id": "b20",
+                  "monogr": {
+                    "title": {
+                      "@level": "m",
+                      "#text": "Study on ambient IoT, 9.1 (from RP-222685),\" 3GPP"
+                    },
+                    "meeting": {
+                      "address": {
+                        "addrLine": "Sophia Antipolis, France"
+                      }
+                    },
+                    "imprint": null
+                  },
+                  "note": "3GPP document TSG RAN-97e3, Sep. 2022. [Online"
+                },
+                {
+                  "@xml:id": "b21",
+                  "analytic": {
+                    "title": {
+                      "@level": "a",
+                      "@type": "main",
+                      "#text": "3GPP"
+                    },
+                    "idno": "GPP Rep. TR 36.814",
+                    "ptr": {
+                      "@target": "https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=2493"
+                    }
+                  },
+                  "monogr": {
+                    "title": {
+                      "@level": "m",
+                      "#text": "Further advancements for E-UTRA physical layer aspects, v.9.0.0 rel"
+                    },
+                    "meeting": {
+                      "address": {
+                        "addrLine": "Sophia Antipolis, France"
+                      }
+                    },
+                    "imprint": {
+                      "date": {
+                        "@type": "published",
+                        "@when": "2010-03",
+                        "#text": "Mar. 2010"
+                      },
+                      "biblScope": {
+                        "@unit": "volume",
+                        "#text": "9"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "listOrg": {
+          "@type": "funding"
+        }
+      }
+    }
+  }
+}

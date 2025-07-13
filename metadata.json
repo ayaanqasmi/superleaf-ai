@@ -1,0 +1,271 @@
+{
+    "title": "RIS-Empowered Ambient Backscatter Communication Systems",
+    "authors": [
+        {
+            "forename": "D",
+            "surname": "Loku Galappaththige"
+        },
+        {
+            "forename": "F",
+            "surname": "Rezaei"
+        },
+        {
+            "forename": "C",
+            "surname": "Tellambura"
+        },
+        {
+            "forename": "Sanjeewa",
+            "surname": "Herath"
+        },
+        {
+            "forename": "F",
+            "surname": "Rezaei"
+        },
+        {
+            "forename": "C",
+            "surname": "Tellambura"
+        },
+        {
+            "forename": "S",
+            "surname": "Herath"
+        },
+        {
+            "forename": "Q",
+            "surname": "Wu"
+        },
+        {
+            "forename": "R",
+            "surname": "Zhang"
+        },
+        {
+            "forename": "X",
+            "surname": "Jia"
+        },
+        {
+            "forename": "X",
+            "surname": "Zhou"
+        },
+        {
+            "forename": "S",
+            "surname": "Idrees"
+        },
+        {
+            "forename": "X",
+            "surname": "Jia"
+        },
+        {
+            "forename": "S",
+            "surname": "Durrani"
+        },
+        {
+            "forename": "X",
+            "surname": "Zhou"
+        },
+        {
+            "forename": "Y.-C",
+            "surname": "Liang"
+        },
+        {
+            "forename": "Q",
+            "surname": "Zhang"
+        },
+        {
+            "forename": "J",
+            "surname": "Wang"
+        },
+        {
+            "forename": "R",
+            "surname": "Long"
+        },
+        {
+            "forename": "H",
+            "surname": "Zhou"
+        },
+        {
+            "forename": "G",
+            "surname": "Yang"
+        },
+        {
+            "forename": "M",
+            "surname": "Nemati"
+        },
+        {
+            "forename": "J",
+            "surname": "Ding"
+        },
+        {
+            "forename": "J",
+            "surname": "Choi"
+        },
+        {
+            "forename": "Y",
+            "surname": "Chen"
+        },
+        {
+            "forename": "R",
+            "surname": "Fara"
+        },
+        {
+            "forename": "D.-T",
+            "surname": "Phan-Huy"
+        },
+        {
+            "forename": "P",
+            "surname": "Ratajczak"
+        },
+        {
+            "forename": "A",
+            "surname": "Ourir"
+        },
+        {
+            "forename": "M",
+            "surname": "Renzo"
+        },
+        {
+            "forename": "J",
+            "surname": "Rosny"
+        },
+        {
+            "forename": "Y",
+            "surname": "Zhuang"
+        },
+        {
+            "forename": "X",
+            "surname": "Li"
+        },
+        {
+            "forename": "H",
+            "surname": "Ji"
+        },
+        {
+            "forename": "H",
+            "surname": "Zhang"
+        },
+        {
+            "forename": "R",
+            "surname": "Long"
+        },
+        {
+            "forename": "Y.-C",
+            "surname": "Liang"
+        },
+        {
+            "forename": "H",
+            "surname": "Guo"
+        },
+        {
+            "forename": "G",
+            "surname": "Yang"
+        },
+        {
+            "forename": "R",
+            "surname": "Zhang"
+        },
+        {
+            "forename": "S",
+            "surname": "Ma"
+        },
+        {
+            "forename": "G",
+            "surname": "Wang"
+        },
+        {
+            "forename": "R",
+            "surname": "Fan"
+        },
+        {
+            "forename": "C",
+            "surname": "Tellambura"
+        },
+        {
+            "forename": "R",
+            "surname": "Zhang"
+        },
+        {
+            "forename": "C",
+            "surname": "Ho"
+        },
+        {
+            "forename": "X",
+            "surname": "Xu"
+        },
+        {
+            "forename": "A",
+            "surname": "\u00d6z\u00e7elikkale"
+        },
+        {
+            "forename": "T",
+            "surname": "Mckelvey"
+        },
+        {
+            "forename": "M",
+            "surname": "Viberg"
+        },
+        {
+            "forename": "Y",
+            "surname": "Ye"
+        },
+        {
+            "forename": "L",
+            "surname": "Shi"
+        },
+        {
+            "forename": "X",
+            "surname": "Chu"
+        },
+        {
+            "forename": "G",
+            "surname": "Lu"
+        },
+        {
+            "forename": "S",
+            "surname": "Sun"
+        },
+        {
+            "forename": "D",
+            "surname": "Wang"
+        },
+        {
+            "forename": "F",
+            "surname": "Rezaei"
+        },
+        {
+            "forename": "C",
+            "surname": "Tellambura"
+        },
+        {
+            "forename": "W",
+            "surname": "Zhao"
+        },
+        {
+            "forename": "G",
+            "surname": "Wang"
+        },
+        {
+            "forename": "S",
+            "surname": "Atapattu"
+        },
+        {
+            "forename": "T",
+            "surname": "Tsiftsis"
+        },
+        {
+            "forename": "X",
+            "surname": "Ma"
+        },
+        {
+            "forename": "K",
+            "surname": "Shen"
+        },
+        {
+            "forename": "W",
+            "surname": "Yu"
+        }
+    ],
+    "publication_date": "2023-01",
+    "keywords": [
+        "Ambient backscatter communication (AmBC)",
+        "reconfigurable intelligent surface (RIS)",
+        "passive tag"
+    ]
+}
