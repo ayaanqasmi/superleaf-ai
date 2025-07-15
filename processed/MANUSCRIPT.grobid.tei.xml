@@ -1,0 +1,1033 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Mutualistic Cooperative Ambient Backscatter Communications Under Hardware Impairments</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2022-11">2022-11</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Yinghui</forename><surname>Ye</surname></persName>
+							<idno type="ORCID">0000-0002-0110-3592</idno>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Liqin</forename><surname>Shi</surname></persName>
+							<email>liqinshi@hotmail.com</email>
+							<idno type="ORCID">0000-0002-1200-8160</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Xiaoli</forename><surname>Chu</surname></persName>
+							<idno type="ORCID">0000-0003-1863-6149</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Guangyue</forename><surname>Lu</surname></persName>
+							<idno type="ORCID">0000-0002-3938-9207</idno>
+						</author>
+						<author>
+							<persName><roleName>Fellow, IEEE</roleName><forename type="first">Sumei</forename><surname>Sun</surname></persName>
+							<idno type="ORCID">0000-0002-1701-8122</idno>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Electronic and Electrical Engineering</orgName>
+								<orgName type="laboratory">Key Laboratory of Information Communication Network and Security</orgName>
+								<orgName type="institution">Xi&apos;an University of Posts &amp; Telecommunications</orgName>
+								<address>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Infocomm Research</orgName>
+								<orgName type="institution">The University of Sheffield</orgName>
+								<address>
+									<country key="GB">U.K</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">Agency for Science, Technology and Research</orgName>
+								<address>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Mutualistic Cooperative Ambient Backscatter Communications Under Hardware Impairments</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">IEEE Transactions on Communications</title>
+						<title level="j" type="abbrev">IEEE Trans. Commun.</title>
+						<idno type="ISSN">0090-6778</idno>
+						<idno type="eISSN">1558-0857</idno>
+						<imprint>
+							<publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+							<biblScope unit="volume">70</biblScope>
+							<biblScope unit="issue">11</biblScope>
+							<biblScope unit="page" from="7656" to="7668"/>
+							<date type="published" when="2022-11" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">88392ADB5249DC1CEF11C71F3FC2D37D</idno>
+					<idno type="DOI">10.1109/tcomm.2022.3201119</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-07-15T05:20+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Mutualistic cooperative ambient backscatter communications (AmBC) have been proposed to improve the spectrum and energy efficiencies of Internet-of-Things (IoT) systems, where a primary link (from a primary transmitter to a primary receiver) and an AmBC link (from an IoT device to the same primary receiver) form a mutualism relationship. We note that hardware impairments (HIs), which are unavoidable in practical systems and may significantly affect the transmission rates of the primary and AmBC links and their mutualism relationships, have been largely ignored in the study of mutualistic cooperative AmBC networks. In this paper, we study a mutualistic cooperative AmBC network with HIs at all the active transceivers and a non-linear energy harvesting circuit at each IoT device. We derive closed-form rate expressions for both the AmBC and primary links and theoretically prove that the mutualism relationship between the AmBC and primary links is maintained under HIs, i.e., the rate of the primary link in the mutualistic cooperative AmBC network is still higher than that without the AmBC link. To maximize the weighted sum rate of all links in a cooperative AmBC network under HIs, we propose two resource allocation schemes for two scenarios with a single link and multiple AmBC links, respectively. For the single AmBC link case, we derive the optimal transmit power of the primary transmitter and the optimal power reflection coefficient of the IoT device in closed forms. For the scenario with multiple AmBC links, the weighted-sum-rate maximization problem is transformed into Part of this work has been accepted by the IEEE ICC <ref type="bibr" target="#b0">[1]</ref>. Yinghui Ye, Liqin Shi and Guangyue Lu are with the Shaanxi</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>a convex one and solved with convex optimization tools. Computer simulations validate our theoretical results and that our proposed schemes outperform the benchmark schemes in terms of the weighted sum rate.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Index Terms</head><p>Ambient backscatter communications, hardware impairment, mutualism relationship, resource allocation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>I. INTRODUCTION</head><p>L ARGE-SCALE Internet-of-Things (IoT) deployments are facing challenges due to the limited battery capacity of devices and scarce spectrum resources. Ambient backscatter communications (AmBC) have been proposed as a spectrum-and energy-efficient solution for</p><p>IoT <ref type="bibr" target="#b0">[1]</ref>- <ref type="bibr" target="#b3">[4]</ref>. The basic principle of AmBC is to allow an IoT device to adjust its the antenna's load impedance to passively modulate information on the incident signals and backscatter the modulated signals to the associated receiver, while harvesting energy from the incident signals to support its circuit operation <ref type="bibr" target="#b2">[3]</ref>, <ref type="bibr" target="#b3">[4]</ref>. AmBC has been validated by various practical prototypes <ref type="bibr" target="#b4">[5]</ref>- <ref type="bibr" target="#b6">[7]</ref>. The transmission rate of an AmBC link is limited by the co-channel interference, because the AmBC receiver receives both the primary transmitter's (PT's) and AmBC transmitter's<ref type="foot" target="#foot_0">foot_0</ref> signals simultaneously and the PT's signal is usually much stronger than that of AmBC. Meanwhile, due to the non-cooperative spectrum sharing between the primary link and the AmBC link, it is hard for the AmBC receiver to obtain the channel state information of each link, hence cannot remove the severe co-channel interference caused by the PT's signal <ref type="bibr" target="#b7">[8]</ref>. To address this problem, one way is to enable certain forms of cooperation at the AmBC receiver to remove the co-channel interference from the PT by designing sophisticated symbol detectors <ref type="bibr" target="#b8">[9]</ref>, <ref type="bibr" target="#b9">[10]</ref>.</p><p>Another way to overcome the above challenge is to design novel cooperative AmBC <ref type="bibr" target="#b10">[11]</ref>, <ref type="bibr" target="#b11">[12]</ref>,</p><p>where the primary link and the AmBC link are jointly designed to remove or suppress the cochannel interference. Depending on whether the AmBC modulation rate is equal to or much slower than that of PT, cooperative AmBC can be classified into parasitic cooperative AmBC and mutualistic cooperative AmBC. In the former, the AmBC receiver firstly decodes the PT's signal while treating the interference from the AmBC link as noise and then removes the decoded PT signal from the composite received signal to decode the AmBC signal <ref type="bibr" target="#b12">[13]</ref>. In the latter, as the AmBC modulation rate is much slower than that of the PT and the received AmBC signal includes both the PT's and the IoT device's information, the AmBC link can provide an additional multipath gain for the primary receiver to decode the PT's signal, forming a mutualism relationship between the primary and AmBC links <ref type="bibr" target="#b10">[11]</ref>, <ref type="bibr" target="#b13">[14]</ref>, <ref type="bibr" target="#b14">[15]</ref>.</p><p>In <ref type="bibr" target="#b14">[15]</ref>, the authors maximized the weighted sum rate of both the primary and AmBC links by jointly optimizing the PT's transmit power and beamforming vectors in parasitic and mutualistic cooperative AmBC networks, respectively. The similar optimizations were also studied in <ref type="bibr" target="#b15">[16]</ref> by considering the finite block length in AmBC links. The authors of <ref type="bibr" target="#b16">[17]</ref> formulated a stochastic optimization to maximize the utility function of the signal-to-interference-plus-noise ratio (SINR) by jointly optimizing the PT's transmit beamforming and its associated receiver's beamforming.</p><p>In <ref type="bibr" target="#b17">[18]</ref>, the authors considered a parasitic cooperative AmBC network with a full-duplex IoT device, where the IoT device splits the incident signal into two parts for message decoding and passive transmission simultaneously, and the PT's transmit power was minimized by jointly optimizing the PT's beamforming vectors and the IoT device's power splitting ratio. Considering the energy-causality constraint at each IoT device, the authors in <ref type="bibr" target="#b18">[19]</ref> jointly optimized the PT's transmit power and the IoT device's power reflection coefficient and backscattering time to maximize the energy efficiency in parasitic and mutualistic cooperative AmBC networks, respectively. In addition to the above works <ref type="bibr" target="#b14">[15]</ref>- <ref type="bibr" target="#b18">[19]</ref> with a focus on resource allocation, performance evaluation was also studied in cooperative AmBC networks. In <ref type="bibr" target="#b19">[20]</ref>, the outage probability and the diversity gain of a parasitic cooperative AmBC network were derived.</p><p>Combining parasitic cooperative AmBC with downlink non-orthogonal multiple access (NOMA), the outage probability and the ergodic capacity were analyzed theoretically in <ref type="bibr" target="#b20">[21]</ref>. Considering a mutualistic cooperative AmBC network, the authors in <ref type="bibr" target="#b21">[22]</ref> derived the upper bounds of the ergodic capacity for both the primary and AmBC links.</p><p>In the above works <ref type="bibr" target="#b14">[15]</ref>- <ref type="bibr" target="#b21">[22]</ref>, the radio frequency (RF) front ends of each transceiver are assumed to be ideal, and it has been shown that the AmBC link can offer beneficial multipath diversity to the primary link and thus the primary link achieves a higher transmission rate than the case without the AmBC link, i.e., there is a mutualism relationship between the primary and AmBC links <ref type="bibr" target="#b14">[15]</ref>. Nevertheless, in practical communications, RF front ends are susceptible to a variety of hardware impairments (HIs), e.g., in-phase/quadrature imbalance, quantization error, etc <ref type="bibr" target="#b22">[23]</ref>- <ref type="bibr" target="#b24">[25]</ref>. The HIs will distort the signals generated by the transmitter and thus degrade the information decoding performance at the receiver. In spite of the efforts on the development of mitigation algorithms, there always exist residual HIs due to the time-varying hardware characteristics. Although in a very recent work <ref type="bibr" target="#b25">[26]</ref>, the authors derived the expressions for both the outage probability and intercept probability in a parasitic cooperative NOMA-AmBC network, where the RF front ends of all transceivers suffer HIs, the impacts of HIs on the mutualistic cooperative AmBC network are still unknown. In the presence of HIs, the AmBC link not only brings an additional multipath diversity gain but also backscatters the distortion noises caused by HIs at the PT's front ends to the primary link. In this regard, the following question arises: does the mutualism relationship between the primary and AmBC links still exist in the presence of HIs? Moreover, the resource allocation for cooperative AmBC networks under HIs has not been studied.</p><p>In this work, we study the impact of HIs on a mutualistic cooperative AmBC network, where an IoT device modulates its information on the incident signal transmitted by the PT with a much slower symbol rate than that of PT while harvesting energy from the PT's signal for sustaining its operation, and design resource allocation schemes to maximize the weighted sum rate of the primary and AmBC links under HIs. A non-linear energy harvesting model is considered for each IoT device as it better reflects the non-linear properties of energy harvesting circuits. The main contributions are summarized as follows.</p><p>• We theoretically prove the following three results to reveal the impacts of HIs on the achievable rates of the primary link and the AmBC link. First, the rate of each link under HIs is strictly lower than that without HIs. Second, under given HIs, the primary link's rate in the considered mutualistic cooperative AmBC network is strictly higher than that without any spectrum-sharing AmBC link. Third, the HIs lead to the rate ceilings for the primary and AmBC links. The first two results validate that the existence of HIs degrades the rate of both the AmBC and primary links but does not destroy the mutualism relationship between them. Compared with <ref type="bibr" target="#b14">[15]</ref>, our conclusion 2 is more rigorous and the details are summarized in Remark 2. In the third result, we derive the upper-bound rate of the primary link and that of the AmBC link at a very high transmit power of the PT. Besides, we derive a closed-form expression of the primary link's rate under the assumption that the modulated information of the IoT device follows a symmetric complex Gaussian distribution.</p><p>• We design resource allocation schemes to maximize the weighted sum rate in mutualistic cooperative AmBC networks with a single AmBC link or multiple AmBC links, while considering HIs. For the case with a single AmBC link, we derive the optimal power reflection coefficient of the IoT device and the optimal transmit power of the PT that maximize the weighted sum rate of the primary and AmBC links, subject to the energycausality constraint of the IoT device. For the case with multiple AmBC links, we formulate a non-convex problem to maximize the weighted sum rate of all links by jointly optimizing the power reflection coefficient and backscattering time of each IoT device and the transmit power of the PT. By exploiting the monotonicity of the primary link's rate and the AmBC link's rate and constructing auxiliary variables, the original problem is transformed into a more tractable form, the convexity of which depends on the energy harvesting model considered for each IoT device. By introducing a non-linear but convex energy harvesting model, the transformed problem is shown to be convex and solved by the convex tools.</p><p>The rest of the paper is organized as follows. In Section II, the system model and the rate of the primary and AmBC links under HIs are presented. Sections III studies the impacts of HIs on the mutualism relationship between the primary and AmBC links, and derives the closed-form rate expressions for both the primary and AmBC links. In Section IV, two resource allocation schemes are developed to maximize the weighted sum rate. Simulation results are provided in Section V and Section VI draws the main conclusion. 2 The ideal hardware in <ref type="bibr" target="#b14">[15]</ref> is a special case of our considered model, thus the conclusion that the mutualism relationship between the AmBC and primary link exists is also valid for the ideal case. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>II. SYSTEM MODEL AND RATE ANALYSIS</head><p>In this section, we first introduce the system model and the associated assumptions, and then analyze the rate of the primary and AmBC links in the presence of HIs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. System Model and Assumption</head><p>Fig. <ref type="figure" target="#fig_0">1</ref> shows a mutualistic cooperative AmBC network that consists of one PT, one primary receiver (PR), and one IoT device (also referred to as a backscatter device (BD) hereafter). Both PT and PR are non-energy-constrained transceivers that are composed of active components, e.g., oscillators, analog-to-digital/digital-to-analog converters. Each BD consists of a backscatter circuit and an energy harvesting circuit. The channel power gains of the PT-BD link, the PT-PR link (also termed as the primary link), and the BD-PR link (also termed as the AmBC link) are denoted by h, f , g, respectively. A block-fading channel model is considered, i.e., all the channel power gains stay constant within each transmission block but may change across different transmission blocks. To obtain the performance bound of both primary and AmBC links, we assume perfect channel state information (CSI) and the details on how to obtain CSI can be found in <ref type="bibr" target="#b2">[3]</ref> and <ref type="bibr" target="#b14">[15]</ref>. Relaxing this assumption makes our considered network close to practical scenarios, which is a new challenge and can be studied in the future.</p><p>Let x p (n) and c s (i) denote the primary signal in the n-th symbol period and the AmBC signal in the i-th symbol period, respectively. Due to the simple backscatter circuit in the BD and the low modulation rate of the BD, the symbol period of x p (n), denoted by T p , is shorter than that of c s (i), denoted by T c . For analytical tractability, we assume that T c = LT p , where L 1 is a positive integer, and that x p (n) follows an independent circularly symmetric complex Gaussian distribution, i.e., x p (n) ∼ CN (0, 1). Also, the mean and variance of c s (i) are assumed to be zero and one, respectively.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Rate Analysis Considering HIs</head><p>In the considered network, PT and BD work in the cooperative mode and transmit their information to the PR by sharing the same resource block. More specifically, BD modulates its own information on the incident signal transmitted by the PT and reflects the modulated signal to the PR, while harvesting energy to sustain its backscatter operation by varying the power reflection coefficient β. Accordingly, the signal transmitted by the PT and the incident signal arriving at the BD can be written as, respectively 3 ,</p><formula xml:id="formula_0">y PT (n) = x p (n) + τ p (n),<label>(1)</label></formula><formula xml:id="formula_1">y BD (n) = √ h (x p (n) + τ p (n)) ,<label>(2)</label></formula><p>where τ p (n) is the distortion noise caused by HIs of the PT. τ p (n) follows an independent zero-mean circularly symmetric complex Gaussian distribution, and its variance is the product of the average power of the PT's signal P 0 and the square of HI level parameter κ p <ref type="bibr" target="#b23">[24]</ref>, i.e., τ p (n) ∼ CN 0, κ 2 p P 0 . Through a power reflection coefficient β, the received signal y BD (n) is split into two parts: one is used as the carrier for modulating and backscattering information 4 c s (i) to the PR, while the other is harvested for powering its backscatter circuit. Accordingly, the received signal of the PR and the harvested power of the BD can be expressed as, respectively,</p><formula xml:id="formula_2">y PR (n) = βhg (x p (n) + τ p (n)) c s (i) PT→BD→PR link + f (x p (n) + τ p (n)) PT→PR link +τ r (n) + w (n) ,<label>(3)</label></formula><p>3 Similar to <ref type="bibr" target="#b7">[8]</ref>, <ref type="bibr" target="#b10">[11]</ref>- <ref type="bibr" target="#b12">[13]</ref>, <ref type="bibr" target="#b26">[27]</ref>, here we omit the thermal noise at the BD as its power introduced by the passive components is much smaller than that of h (xp(n) + τp(n)). 4 The BD adjusts its antenna's load impedance to passively modulate information cs (i) on the incident signal yBD(n) and backscatter the modulated signal to the PR <ref type="bibr" target="#b2">[3]</ref>, which avoids the imperfect RF components. Thus, there is no distortion noise introduced by the BD.</p><formula xml:id="formula_3">E BD = ϕ (1 -β) hP 0 1 + κ 2 p ,<label>(4)</label></formula><p>where w (n) is the additive complex white Gaussian noise with mean zero and variance σ 2 , ϕ (•) is a non-decreasing function to reflect the relationship between the input power and the harvested power for a practical energy harvester, τ r (n) is the hardware distortion noise, and follows the Gaussian distribution with a zero mean and a variance that equals the product of the average power of the incident signal and the square of the HI level parameter κ r <ref type="bibr" target="#b23">[24]</ref>. For given c s (i), the average power of the incident signal in a symbol period is given by</p><formula xml:id="formula_4">P 0 1 + κ 2 p hβg|c s (i)| 2 + f ,</formula><p>while the average power of the incident signal in a transmission block, which is much longer than a symbol period of the BD, is given by</p><formula xml:id="formula_5">P 0 1 + κ 2 p hβgE |c s (i)| 2 + f = κ 2 r P 0 1 + κ 2 p (hβg + f ), where E |c s (i)| 2 = 1.</formula><p>Accordingly, the distribution of τ r (n) can be written as</p><formula xml:id="formula_6">τ r (n) ∼    CN 0, κ 2 r P 0 1 + κ 2 p hβg|c s (i)| 2 + f , within one BD symbol period CN 0, κ 2 r P 0 1 + κ 2 p (hβg + f ) , within one transmission block .<label>(5)</label></formula><p>As T c = LT p , c s (i) spans L primary symbol periods for n = 1, 2, ..., L, i.e., c s (i) keeps almost unchanged for decoding x p (n), n = 1, 2, ..., L. For a given c s (i), the first term in (3) can be rewritten as</p><formula xml:id="formula_7">√ βhgx p (n)c s (i) + √ βhgτ p (n)c s (i), where √ βhgx p (n)c s (i) and √ βhgτ p (n)c s (i)</formula><p>can be regarded as the output of the PT signal x p (n) passing through a slowly varying channel √ βhgc s (i) and the Gaussian noise with variance κ 2 p P 0 βhg|c s (i)| 2 . Accordingly, the SINR to decode x p (n) and the achievable rate of x p (n) within the symbol period of c s (i) can be calculated as, respectively,</p><formula xml:id="formula_8">γ xp (c s (i)) = P 0 hβg|c s (i)| 2 + P 0 f P 0 hβg|c s (i)| 2 + f κ + σ 2 ,<label>(6)</label></formula><formula xml:id="formula_9">R p (c s (i)) = B w log 2 1 + γ xp (c s (i)) ,<label>(7)</label></formula><p>where B w denotes the communication bandwidth, and κ=κ 2 r κ 2 p + κ 2 r + κ 2 p . By assuming that the number of symbols of the BD signal is sufficiently large within one transmission block, then the average rate of x p (n) within one transmission block can be derived as</p><formula xml:id="formula_10">C p = E cs(i) [R p (c s (i))] ,<label>(8)</label></formula><p>where E x [•] denotes the expectation operator over the random variable x.</p><p>After obtaining the rate of the primary link, we derive the rate of the AmBC link. We assume for simplicity that √ hf x p (n) can be perfectly removed from y PR (n) via successive interference cancellation (SIC). Thus, the remaining signal at the PR to decode c s (i) is given by</p><formula xml:id="formula_11">ŷPR (n) = βhg (x p (n) + τ p (n)) c s (i) + f τ p (n) + τ r (n) + w (n) .<label>(9)</label></formula><p>As the average power of x p (n) equals one and one BD symbol, e.g., c s (i), is modulated into the L consecutive PT symbol periods, x p (n), n = 1, 2, ..., L, the maximal ratio combing (MRC) can be performed on ŷPR (n), n = 1, 2, ..., L, which are received in L consecutive primary symbol periods, to decode c s (i). The resulting average SINR can be calculated as</p><formula xml:id="formula_12">γ cs = L n=1 E βhg|x p (n)| 2 |τ p (n)| 2 (βhg + f ) + |τ r (n)| 2 + |w (n)| 2 = LβhgP 0 P 0 (βhg + f ) κ + σ 2 ,<label>(10)</label></formula><p>where the second equality holds due to</p><formula xml:id="formula_13">E[|x p (1)| 2 ] = E|x p (2)| 2 ] = ... = E[|x p (n)| 2 ] = P 0 , E[|τ p (1)| 2 ] = E[|τ p (2)| 2 ] = ... = E[|τ p (n)| 2 ] = κ 2 p P 0 , E[|τ r (1)| 2 ] = E[|τ r (2)| 2 ] = ... = E[|τ r (n)| 2 ] = κ 2 r P 0 1 + κ 2 p (hβg + f ), and E[|w (1)| 2 ] = E[|w (2)| 2 ] = ... = E[|w (n)| 2 ] = σ 2 .</formula><p>In the mutualistic cooperative AmBC network, as modulating one BD symbol requires L consecutive PT symbols, the PT's signal x p (n) can be viewed as a spread-spectrum code with length L for BD symbols. Accordingly, the SINR to decode c s (i) is increased by L times at the price of symbol rate decreased by 1 L , and the BD's rate can be expressed as</p><formula xml:id="formula_14">C s = B w L log 2 (1 + γ cs ) .<label>(11)</label></formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>III. IMPACTS OF HIS</head><p>In this section, we study the impacts of HIs on the mutualism relationship between the primary and AmBC links. Besides, we derive the primary link's rate (8) into a closed form.</p><p>The rates for the primary link and the AmBC link with ideal hardware can be obtained by substituting κ p = κ r = 0 into (8) and <ref type="bibr" target="#b10">(11)</ref>, i.e.,</p><formula xml:id="formula_15">C id p = E cs(i) B w log 2 1 + P 0 hβg|c s (i)| 2 + P 0 f σ 2 , (<label>12</label></formula><formula xml:id="formula_16">)</formula><formula xml:id="formula_17">C id s = B w L log 2 1 + LP 0 βhg σ 2 . (<label>13</label></formula><formula xml:id="formula_18">)</formula><p>Comparing the rates in ( <ref type="formula" target="#formula_15">12</ref>) and ( <ref type="formula" target="#formula_17">13</ref>) with the HIs case in ( <ref type="formula" target="#formula_10">8</ref>) and <ref type="bibr" target="#b10">(11)</ref>, it is clear that the rates with HIs are strictly lower than those of ideal hardware due to the existence of hardware distortion noises in both the primary and AmBC links, i.e., C id p &gt; C p and R id s &gt; R s always hold. This indicates that HIs degrade the achievable rates of both the primary and AmBC links.</p><p>Besides, by assuming P 0 → ∞ in the case of HIs, we have the following inequality associated with the PT link's rate, i.e.,</p><formula xml:id="formula_19">C p ≤ B w log 2 1 + hβgE |c s (i)| 2 + f hβgE |c s (i)| 2 + f κ + σ 2 P 0 &lt; B w log 2 1 + 1 κ ,<label>(14)</label></formula><p>where the first inequality holds for the Jensen's inequality, and second inequality is derived from</p><formula xml:id="formula_20">that hβgE[|cs(i)| 2 ]+f (hβgE[|cs(i)| 2 ]+f)κ+ σ 2 P 0</formula><p>is an increasing function with respect to P 0 and that σ 2 P 0 approaches to zero as P 0 → ∞.</p><p>Similarly, we can obtain the following inequality on the BD's rate as P 0 → ∞, given by</p><formula xml:id="formula_21">C s &lt; B w L log 2 1 + Lβhg (βhg + f ) κ . (<label>15</label></formula><formula xml:id="formula_22">)</formula><p>Remark 1. Both ( <ref type="formula" target="#formula_19">14</ref>) and <ref type="bibr" target="#b14">(15)</ref> show that the HI levels, i.e., κ p , κ r , have significant impacts on the achievable rate. It can be seen that in the case of HIs, the achievable rates of both the primary and AmBC links are bounded at P 0 → ∞, i.e., there exist rate ceilings for both the primary and AmBC links. Interestingly, the upper bound of C p only depends on the HIs, while for the AmBC link, its upper bound is jointly affected by the HIs and the channel power gains. Particularly, the upper bound of C s increases with the decrease of f , indicating that a poor channel condition of the PT-PR link raises the ceiling of the AmBC link rate.</p><p>To answer the question raised in the Introduction section, we provide the following theorem.</p><p>Theorem 1. For given κ p , κ r and channel power gains, we have the following inequality, i.e.,</p><formula xml:id="formula_23">C p &gt; B w log 2 1 + P 0 f P 0 f κ + σ 2 , (<label>16</label></formula><formula xml:id="formula_24">)</formula><p>where C p denotes the achievable rate of the primary link with ideal hardware, and the right side of ( <ref type="formula" target="#formula_23">16</ref>) is the achievable rate of the primary link under HIs when the spectrum resource is used by the PT only, i.e., no reflection from the BD.</p><p>Proof. Please refer to Appendix A.</p><p>Remark 2. Theorem 1 indicates that in the mutualistic cooperative AmBC network under HIs, even though the AmBC link brings both multipath diversity and hardware distortion noise to the primary link, the rate of the primary link can be still improved. That is, the existence of HIs does not destroy the mutual benefit between the AmBC and primary links. In particular, letting κ p = κ r = 0, Theorem 1 also verifies that the mutual benefit exists in the ideal hardware case.</p><p>We note that the existence of mutual benefit in the ideal hardware case was also proven in <ref type="bibr" target="#b14">[15]</ref>,</p><p>where the assumption that c s (i) follows the complex Gaussian distribution and the approximation under high signal-noise-ratio (SNR) were adopted, however, in our work, we have not made any special assumptions on the distribution of c s (i) and also not used any approximations. Thus, our</p><p>proposed Theorem 1 is more general and rigorous compared to the existing one <ref type="bibr" target="#b14">[15]</ref>.</p><p>Although we provide expressions to calculate C p and its upper bound, the form of ( <ref type="formula" target="#formula_10">8</ref>) is not closed and ( <ref type="formula" target="#formula_19">14</ref>) is tight only at P 0 → ∞. The upper bound in <ref type="bibr" target="#b13">(14)</ref> does not hold at low or moderate transmit power. Accordingly, it is required to derive a closed-form expression that approximates C p closely at different transmit power levels. To this end, Proposition 1 is provided.</p><p>Proposition 1. By assuming that c s (i) follows the symmetric complex Gaussian distribution with zero mean and unit variance, we can approximate C p as</p><formula xml:id="formula_25">C p =            B w log 2 b+bκ+σ 2 bκ+σ 2 -Bw ln 2 exp b+bκ+σ 2 aκ+a Ei -b+bκ+σ 2 aκ+a + Bw ln 2 exp bκ+σ 2 aκ Ei -bκ+σ 2 aκ , if κ &gt; 0 B w log 2 b+σ 2 σ 2 -Bw ln 2 exp b+σ 2 a Ei -b+σ 2 a , if κ = 0 ,<label>(17)</label></formula><p>where a = P 0 hβg, b = P 0 f , and Ei (•) is the exponential integral.</p><p>Proof. Please refer to Appendix B.</p><p>Remark 3. By comparing <ref type="bibr" target="#b16">(17)</ref> with the right side of ( <ref type="formula" target="#formula_23">16</ref>), one can see that the rate gains of the primary link in the cases of HIs and ideal hardware are</p><p>Bw ln 2 exp bκ+σ 2 aκ Ei -bκ+σ 2 aκ -Bw ln 2 exp b+bκ+σ 2 aκ+a Ei -b+bκ+σ 2 aκ+a and -Bw ln 2 exp b+σ 2 a Ei -b+σ 2 a , respectively. It can also be inferred that the HIs degrade the rate gain, as -Bw ln 2 exp b+σ 2 a Ei -b+σ 2 a &gt; Bw ln 2 exp bκ+σ 2 aκ × Ei -bκ+σ 2 aκ -Bw ln 2 exp b+bκ+σ 2 aκ+a Ei -b+bκ+σ 2 aκ+a</p><p>holds at κ &gt; 0. This indicates that although the existence of HIs does not destroy the mutual benefit between the primary and AmBC links, the harmful impacts on the rate gain exist, i.e., a larger HI level brings a smaller rate gain.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IV. RATE MAXIMIZATION</head><p>In this section, we solve two optimization problems to maximize the weighted sum rate of all links for a mutualistic cooperative AmBC network with a single AmBC link or with multiple AmBC links, respectively, while considering HIs. Different from the sum rate, the weighted sum rate not only considers the total transmission rate of the primary link and the AmBC link, but also allows for different priorities in allocating wireless resources to the primary link and the AmBC link. Particularly, when the weight factor for each link is the same, the weighted sum rate reduces the sum rate.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. Single AmBC Link</head><p>From Section II-A, we can see that the transmit power of PT and the BD's power reflection coefficient have significant impacts on the rates of both the primary and AmBC links. This motivates us to jointly optimize these two variables to boost the achievable performance in what follows. Towards this end, we formulate a problem to maximize the weighted sum of C p and C s , while satisfying the energy-causality constraint for the BD, i.e., P 0 : max</p><formula xml:id="formula_26">β,P 0 θC p + (1 -θ) C s (18a) s.t. E BD ≥ P c ,<label>(18b)</label></formula><formula xml:id="formula_27">0 ≤ β ≤ 1,<label>(18c)</label></formula><formula xml:id="formula_28">0 &lt; E |y PT (n)| 2 ≤ P max 0 .<label>(18d)</label></formula><p>In P 0 , θ is the weight factor, (18b) is to ensure that the harvested power of the BD is always larger than the circuit consumption power P c , (18c) and (18d) constrain the value range of the power reflection coefficient and the PT's transmit power, respectively.</p><p>Clearly, P 0 is non-convex due to the following factors. One the one hand, P 0 is coupled with β in both the objective function and constraint (18b). On the other hand, the nonlinear fractional function with respect to the optimization variable is included in the objective function.</p><p>To decouple the two optimization variables, we provide Proposition 2 as follows.</p><p>Proposition 2. The optimization goal of P 0 is reached when the PT adopts the maximum transmit power, i.e., P * 0 =</p><formula xml:id="formula_29">P max 0 1+κ 2 p .</formula><p>Proof. Please refer to Appendix C.</p><p>Using Proposition 2, the original problem P 0 can be simplified as</p><formula xml:id="formula_30">P 1 : max β θE cs(i) log 2 1 + P * 0 hβg|c s (i)| 2 + P * 0 f P * 0 hβg|c s (i)| 2 + f κ + σ 2 + 1 -θ L log 2 1 + LβhgP * 0 P * 0 (βhg + f ) κ + σ 2 (19a) s.t. 0 ≤ β ≤ 1 - ϕ -1 (P c ) hP * 0 1 + κ 2 p ,<label>(19b)</label></formula><p>where constraint (19b) is derived from constraints (18b) and (18c). In particular, using the nondecreasing function ϕ (•), constraint (18b) can be rewritten as</p><formula xml:id="formula_31">β ≤ 1 -ϕ -1 (Pc) hP * 0 (1+κ 2 p)</formula><p>. Combining it with constraint (18c), we obtain constraint (19b). One observation from (19b) is that the feasible</p><formula xml:id="formula_32">region of P 1 is empty if ϕ -1 (Pc) hP * 0 (1+κ 2 p) ≥ 1. Physically speaking, ϕ -1 (Pc) hP * 0 (1+κ 2 p)</formula><p>≥ 1 indicates that the harvested power is not sufficient enough to sustain the backscatter operation.</p><p>In what follows, we present a proposition to determine the optimal power reflection coefficient of P 1 .</p><p>Proposition 3. The power reflection coefficient to maximize the weighted sum of C p and C s equals 1 -ϕ -1 (Pc)</p><formula xml:id="formula_33">hP * 0 (1+κ 2 p) , i.e, β * = 1 -ϕ -1 (Pc) hP * 0 (1+κ<label>2 p)</label></formula><p>.</p><p>Proof. Please refer to Appendix D.</p><p>Combining propositions 2 and 3, we can rewrite β * as</p><formula xml:id="formula_34">β * = 1 - ϕ -1 (P c ) hP max 0 . (<label>20</label></formula><formula xml:id="formula_35">)</formula><p>Remark 4. Observing <ref type="bibr" target="#b19">(20)</ref> and Propositions 2, we can obtain the following interesting results.</p><p>One is that the HI parameters and the channel power gain of both the primary and AmBC links have no impacts on the optimal power reflection coefficient. This indicates that the optimal power reflection coefficient is robust to the HI parameters. The other is that the optimal PT's transmit power is only determined by the HI parameters of the PT. In other words, the optimal PT's transmit power is free of the HI parameters of the PR, the power reflection coefficient and the channel power gains of all links. Accordingly, a priori knowledge of the HI parameter</p><p>K ... MEC server ... Data offloading via BackCom or AT K个物联网节点依次进行数据卸载，且物联 网节点k所占用的数据卸载时间为tk 1 t ... ... EH k t PB 发送能量 信号 K t ... 站 物联网节点1 物联网节点 k 物联网节点 K ... ... MEC服务器 ... ... ... 数据卸载链路 射频能量传输链路 K个物联网节点同时进行本地计算 0 t 任务计算 与下传 0 PT PR + x p p  + y r r  BD(ST) h f g Primary link AmBC link PT PR + x p p  + y r r  K BDs (IoT devices) BD k BD 1 BD K Primary link AmBC link Fig. 2. Mutualistic cooperative AmBC network with multiple AmBC links.</p><p>associated with the PR and the channel power gain of both the primary and AmBC links do not be required for resource allocation in our considered network.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Multiple AmBC Links</head><p>In this subsection, we consider a mutualistic cooperative AmBC network with multiple BDs and formulate a problem to jointly optimize the time allocation, the transmit power of PT, and the power reflection coefficient so as to maximize the sum of weighted rate of the considered network. Subsequently we propose an iterative algorithm to solve the formulated problem.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>1) Problem Formulation and Analysis:</head><p>As shown in Fig. <ref type="figure" target="#fig_12">2</ref>, the considered network is composed of one PT, one PR, and K BDs. In order to avoid the co-channel among BDs, the duration of an entire transmission is divided into K subslots and a TDMA scheme is adopted for BDs, where in one subslot, only one BD is allowed to backscatter its information to the PR while the other BDs operate in the energy harvesting mode. In other words, for the subslot t k , k = 1, 2, ..., K, the k-th BD works in the backscatter mode while the other BDs harvest energy from the PT's signal. Accordingly, based on the results of Section II-B, for t k , the rate of the primary link and the k-th AmBC link can be written as, respectively,</p><formula xml:id="formula_36">C t k p = t k E c k s (i)   B w log 2   1 + P 0 h k β k g k c k s (i) 2 + P 0 f P 0 h k β k g k |c k s (i)| 2 + f κ + σ 2     ,<label>(21)</label></formula><formula xml:id="formula_37">C t k s = B w t k L log 2 1 + Lβ k h k g k P 0 P 0 (β k h k g k + f ) κ + σ 2 ,<label>(22)</label></formula><p>where h k , g k , and β k are the channel power gains of the k-th BD-PT link, the k-th BD-PR link (also termed as k-th AmBC link), and the power reflection coefficient of the k-th BD within t k , respectively.</p><p>For the k-th BD, the harvested energy in one transmission block can be written as</p><formula xml:id="formula_38">E k BD = ϕ (1 -β k ) h k P 0 1 + κ 2 p t k + ϕ h k P 0 1 + κ 2 p K i=1,i =k t i .<label>(23)</label></formula><p>Accordingly, by considering the energy-causality constraint of each BD in each transmission block, the optimization problem to maximize the sum of weighted rate for the considered network with multiple BDs is formulated as</p><formula xml:id="formula_39">P 2 : max t k ,β k ,P 0 K k=1 θ k C t k s + 1 - K k=1 θ k K k=1 C t k p (24a) s.t. K k=1 t k = 1,<label>(24b)</label></formula><formula xml:id="formula_40">0 ≤ β k ≤ 1, ∀k,<label>(24c)</label></formula><formula xml:id="formula_41">E k BD ≥ P c t k , ∀k,<label>(24d)</label></formula><formula xml:id="formula_42">C t k s ≥ R min,k , ∀k, (18d),<label>(24e)</label></formula><p>where θ k is the weight factor and satisfies K k=1 θ k &lt; 1, (24e) represents the QoS constraint for each AmBC link and R min,k denotes the minimum required rate for the k-th BD.</p><p>Compared to P 0 , P 2 is more complex and also non-convex as it includes more optimization variables and the coupled variables, i.e, t k , β k , and P 0 , in the objective function (24a) and the constraints (24d) and (24e). In order to decouple these optimization variables and transform P 2 into a more tractable one, we first determine the optimal PT's transmit power P 0 . Similar to the proof of proposition 2, it is easy to obtain P * 0 = P max 0 1+κ 2 p . Thereby, P 2 is equivalent to</p><formula xml:id="formula_43">P 3 : max t k ,β k K k=1 θ k t k B w L log 2 1 + Lβ k h k g k P * 0 P * 0 (β k h k g k + f ) κ + σ 2 + 1 - K k=1 θ k × K k=1 t k E c k s (i)   B w log 2   1 + P * 0 h k β k g k c k s (i) 2 + P * 0 f P * 0 h k β k g k |c k s (i)| 2 + f κ + σ 2     (25a) s.t. (24b), (24c),<label>(25b)</label></formula><formula xml:id="formula_44">ϕ (1 -β k ) h k P * 0 1 + κ 2 p t k + ϕ h k P * 0 1 + κ 2 p K i=1,i =k t i ≥ P c t k , ∀k,<label>(25c)</label></formula><formula xml:id="formula_45">B w t k L log 2 1 + Lβ k h k g k P * 0 P * 0 (β k h k g k + f ) κ + σ 2 ≥ R min,k , ∀k.<label>(25d)</label></formula><p>Although P 3 is more tractable than P 2 , it is still non-convex. The non-convexity of P 3 arises from the objective function (25a) and the constraints (25c) and (25d). In particular, both the objective function and the left term of (25d) are non-convex, since they include coupled variables and the SINR is a typical nonlinear fractional term. If we consider an ideal hardware case for resource allocation, i.e., κ = 0, the SINR in the objective function would be affine. That is to say, to make the considered network more realistic, we need to devise an efficient approach to tackle the non-linear fractional term. Another difficulty is that t k and β k are coupled in the left term of (25c) and the non-linear energy harvesting model makes (25c) more complex and challenging.</p><p>In addition, due to the non-decreasing feature of the non-linear energy harvesting model, ϕ (•) is a quasi-concave function and its convexity cannot be determined in generally. Therefore, we have to face the difficulties in solving the optimization problems caused by the non-linear energy harvesting model.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2) Problem Transformation:</head><p>In order to transform P 3 into a tractable form and solve the transformed one by using efficient convex optimization tools, we introduce several transformations for problem P 3 in what follows.</p><p>In order to transform the objective function (25a) and the QoS constraint (25d) into concave functions, we introduce an auxiliary variable to decouple the optimization variables t k and β k for each k. Specifically, let ε k = t k β k and substitute β k = ε k t k into P 3 , we have Proof. Please refer to Appendix E.</p><formula xml:id="formula_46">P 4 : max t k ,ε k K k=1 B w θ k t k L log 2 1 + P * 0 Lh k g k ε k t k P * 0 h k g k κ ε k t k + P * 0 f κ + σ 2 + 1 - K k=1 θ k × K k=1 E c k s (i) B w t k log 2 1 + P * 0 h k g k c k s (i) 2 ε k t k + P * 0 f P * 0 h k ε k t k g k |c k s (i)| 2 κ + P * 0 f κ + σ 2 , (<label>26a</label></formula><formula xml:id="formula_47">)</formula><formula xml:id="formula_48">s.t. 0 ≤ ε k ≤ t k , ∀k, (24b), (26b) ϕ 1 - ε k t k h k P * 0 1 + κ 2 p t k + ϕ h k P * 0 1 + κ 2 p K i=1,i =k t i ≥ P c t k , ∀k,<label>(26c)</label></formula><formula xml:id="formula_49">B w t k L log 2 1 + P * 0 Lh k g k ε k t k P * 0 h k g k κ ε k t k + P * 0 f κ + σ 2 ≥ R min,k , ∀k.<label>(26d</label></formula><p>Next, we examine the convexity of all the constraints of P 4 . It is observed that constraint (26b) is linear and constraint (26d) can be proved to be convex by using similar ways in Proposition 4, while the convexity of constraint (26c) is still unclear due to the following reasons. First, t k is still coupled with ε k , which brings challenges in judging its convexity. Second, the convexity of ϕ (•), which depends on the specific non-linear energy harvesting model, is unclear and has a significant impact on the convexity of constraint (26c). In order to make constraint (26c) more tractable, the convexity-preserving property of a perspective function <ref type="bibr" target="#b27">[28]</ref> is leveraged. Thus, the convexity of (26c) is the same as that of the following constraint, given by</p><formula xml:id="formula_50">ϕ (1 -ε k ) h k P * 0 1 + κ 2 p + ϕ h k P * 0 1 + κ 2 p K i=1,i =k t i ≥ P c t k , ∀k.<label>(27)</label></formula><p>Clearly, in constraint ( <ref type="formula" target="#formula_50">27</ref>), all terms are linear except for ϕ (1 -ε k ) h k P * 0 1 + κ 2 p . Therefore, constraint <ref type="bibr" target="#b26">(27)</ref> is convex if and only if the non-linear energy harvesting model ϕ (•) is a concave function. Motivated by this observation, in this work, we consider the non-linear energy harvesting model proposed in <ref type="bibr" target="#b28">[29]</ref> as this model not only captures the nonlinear properties of a practical energy harvester, but also is a concave function with respect to the input power <ref type="bibr" target="#b29">[30]</ref>, making it more mathematically tractable than the other existing non-linear energy harvesting models considered in <ref type="bibr" target="#b30">[31]</ref>- <ref type="bibr" target="#b32">[33]</ref>. The non-linear energy harvesting model proposed in <ref type="bibr" target="#b28">[29]</ref> is given by</p><formula xml:id="formula_51">ϕ (x) = Ax + B x + C - B C , (<label>28</label></formula><formula xml:id="formula_52">)</formula><p>where x is the input power, and the parameters A, B, and C are determined by fitting ϕ (x)</p><p>with the measured data.</p><p>By doing so, ϕ (x) is a concave function with respect to x and thus constraint (25c) is convex.</p><p>Therefore, P 4 is a convex optimization problem and can be solved by the convex tools.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>V. SIMULATIONS</head><p>In this section, computer simulations are provided to support our findings and verify the superiority and the effectiveness of the proposed schemes under the considered networks. Unless otherwise specified, the basic simulation parameters are set as follows. In particular, we set</p><formula xml:id="formula_53">P 0 = 3 mW, T = 1 s, B w = 1 MHz, L = 128 [15], P c = 10µW [2]</formula><p>, κ p = κ r = 0.1 <ref type="bibr" target="#b25">[26]</ref>, and the noise power spectral density is set as σ 2 = -120 dBm/Hz <ref type="bibr" target="#b3">[4]</ref>. Following <ref type="bibr" target="#b28">[29]</ref> and <ref type="bibr" target="#b29">[30]</ref>, we set the parameters of the considered energy harvesting model as A = 2.463, B = 1.635 and C = 0.826.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. Impacts of HIs on PT link's Rate</head><p>The standard channel fading model is considered here to characterize all the channels, where each channel power gain is given by the product of the small-scale fading and the large-scale fading. Let D ps , D sr and D pr denote the distances of the PT-BD link, the BD-PR link and the PT-PR link, respectively. Denote h , f and g as the small-scale fading of the PT-BD link, the BD-PR link and the PT-PR link, respectively. Accordingly, we have h = h D</p><p>-αps ps , f = f D -αsr sr and g = g D -αpr pr</p><p>, where α ps , α sr and α pr are the path loss exponents of the PT-BD link, the BD-PR link and the PT-PR link, respectively. Here α ps , α sr and α pr are set as 2.7, 2.7 and 3.</p><p>The BD's power reflection coefficient β is set as 0.8.</p><p>Fig. <ref type="figure">3</ref> shows the PT link's rate versus the transmit power of the PT under the HIs case and the ideal case. In order to illustrate the improvement of the PT link's rate caused by the</p><p>2 2.5 3 PT's tranmit power (mW) 5 5.1 5.2 5.3 5.4</p><p>Primary link's rate (bits/s)</p><p>10 6 HIs case ( r = p =0.1) Non-cooperation Cooperation (Sim.) Cooperation (Theo.) 2 2.5 3 PT's transmit power (mW) 7 7.2 7.4 7.6 7.8 8 8.2 Primary link's rate (bits/s) 10 6 Ideal case( = p =0) Non-cooperation Cooperation (Sim.) Cooperation (Theo.)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Rate gain</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Rate gain</head><p>Fig. <ref type="figure">3</ref>. The PT link's rate versus the transmit power of the PT P0 under the HIs case and the ideal case.</p><p>BD's cooperation, we compare the PT's transmit rate under the considered network (called "Cooperation" in this figure) with the PT link's rate under the network without the BD (called "Non-cooperation" in this figure). For the PT link's rate under the considered network, we plot the simulation results and the theoretical results, respectively, where the simulation results are obtained via Monte Carlo simulations (marked by 'o') averaged over 1 × 10 6 realizations and the theoretical results are achieved based on the derived expression <ref type="bibr" target="#b16">(17)</ref>. It can be observed that the theoretical results match well with the simulation results, which demonstrates the correctness of <ref type="bibr" target="#b16">(17)</ref>. By comparisons, we can see that the PT link's rate under the considered network is always higher than that without the BD's cooperation in both the HIs case and the ideal case, which verifies Theorem 1, indicating that although the HI level has significant impacts on the PT link's rate, the improvement from the BD's cooperation still exists. Besides, by comparing the rate gains under the HIs case and the ideal case, we can also find that the existence of the HIs not only reduces the achievable rate at the PT, but also degrades the rate gain.</p><p>Fig. <ref type="figure" target="#fig_1">4</ref> plots the rates of both the primary and AmBC links versus PT's transmit power under the HIs with κ p = κ r = 0.1. The upper-bound rates of the primary and AmBC links are calculated</p><p>2 42 82 122 162 202 PT's transmit power (mW) 7.1 7.2 7.3 7.4 7.5 AmBC's link rate (bit/s) 10 4 Actual rate Upper-bound rate 2 42 82 122 162 202 PT's transmit power (mW) 5.2 5.3 5.4 5.5 5.6 5.7 Primary link's rate (bit/s) 10 6 Actual rate Upper-bound rate by ( <ref type="formula" target="#formula_19">14</ref>) and ( <ref type="formula" target="#formula_21">15</ref>), respectively. One can see that the rates of both the primary and AmBC links under the HIs are strictly lower than the upper-bound ones. On the contrary, ( <ref type="formula" target="#formula_15">12</ref>) and <ref type="bibr" target="#b12">(13)</ref> show that in the ideal hardware case, i.e., κ = κ p = κ r = 0, the rates of both links increase with the PT's transmit power without an upper bound. The above observations confirm that HIs will lead to a rate ceiling for both the primary and AmBC links. This is because the HIs introduce a distortion noise whose average power is proportional to the PT's transmit power, leading to an upper-bound SINR for decoding the primary and AmBC signals, as expected in ( <ref type="formula" target="#formula_8">6</ref>) and <ref type="bibr" target="#b9">(10)</ref>.</p><p>Fig. <ref type="figure" target="#fig_5">5</ref> illustrates the impacts of the HI levels on the PT link's rate. Here we set the values of κ r and κ p are the same and vary from 0 to 0.2. The reason to consider a small value for HI parameters is that the 3GPP has suggested the range of the HI level from 0.08 to 0.175 <ref type="bibr" target="#b24">[25]</ref>. One observation is that the simulation results with the BD's cooperation (marked by 'o') always match well with the theoretical results via <ref type="bibr" target="#b16">(17)</ref>, indicating the correctness of theoretical derivations. Another observation is that the scope of the primary link's rate decreases first and then increase under the Non-cooperation or the Cooperation. This is because the primary link's 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 r = p 3.5 rate 5 is a non-convex with respect with respect to κ r or κ p . Besides, we can see that the PT link's rate with/without the BD's cooperation decrease when the HI levels increase, since the existence of the HIs degrades the achievable rate at the PT and the larger the HI levels are, the smaller the PT link's rate is. Also, the rate gain from BD's cooperation always exists no matter what the HI level is and a larger HI level brings a smaller rate gain.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Rate Maximization with A Single AmBC Link</head><p>Fig. <ref type="figure">6</ref> plots the weighted sum rate of the system versus the maximum allowed transmit power of the PT P max 0 . We set θ = 0.2, B w = 1 MHz, and P max 0 varies from 2 mW to 10 mW. Note that the optimal transmit power of the PT and the optimal power reflection coefficient of the BD under the proposed scheme are obtained by following Proposition 2 and Proposition 3. In order to demonstrate the superiority of the proposed scheme, we compare the performance of 5 The primary link's rate is a convex function with respect to κ However, κ = κ 2 r + κ 2 p + κ 2 r κ 2 p in our paper, and it can be proven that second derivative of the primary link's rate over κr or κp is smaller than zero first and then larger than zero as κr or κp increases.</p><p>2 3 4 5 6 7 8 9 10</p><p>The maximum allowed transmit power of the PT (mW)</p><p>1.02 1.04 1.06 1.08 1.1 1.12 1.14 1.16 Weighted sum rate (bits) 10 6</p><p>The proposed scheme</p><p>The fixed scheme with P 0 =P 0 max , =0.3</p><p>The fixed scheme with P 0 =P 0 max , =0.5</p><p>The fixed scheme with P 0 =P 0 max , =0.7</p><p>Noncooperation with P 0 =P 0 max Fig. <ref type="figure">6</ref>. The weighted sum rate of the system versus the maximum allowed transmit power of the PT.</p><p>the proposed scheme with that under the fixed scheme and non-cooperation. Specifically, for the fixed scheme, both the transmit power of the PT P 0 and the power reflection coefficient of the BD β are fixed, where P 0 is set as P max 0 and β is set as 0.3, 0.5 and 0.7, respectively.</p><p>For non-cooperation, P 0 is fixed as P max 0 . It can be observed that with the increasing of P max 0 , the weighted sum rate of the system increases since a larger P max 0 brings higher PT link's rate and BD's rate, resulting in larger weighted sum rate. By comparisons, we can also see that the proposed scheme outperforms the other schemes in terms of weighted sum rate, which further illustrates the advantage of the cooperation between the PT and the BD.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>C. Weighted Sum Rate Maximization with Multiple AmBC Links</head><p>In this subsection, we set K = 4, P max Fig. <ref type="figure">7</ref> shows the weighted sum rate of the system versus the maximum allowed transmit power of the PT P max 0 . In order to demonstrate the advantage of the proposed scheme, we compare the</p><p>5 10 15 20 25 The maximum allowed transmit power of the PT (mW) 400 600 800 1000 1200 1400 1600 Weighted sum rate (kbits)</p><p>The proposed scheme</p><p>The fixed scheme with P 0 =P 0 max , 1 = 2 = 3 = 4 =0.3</p><p>The fixed scheme with P 0 =P 0 max , 1 = 2 = 3 = 4 =0.5</p><p>The fixed scheme with P 0 =P 0 max , 1 = 2 = 3 = 4 =0.7</p><p>Fig. <ref type="figure">7</ref>. The weighted sum rate of the system versus the maximum allowed transmit power of the PT.</p><p>performance of the proposed scheme with that under the fixed scheme. For the fixed scheme, the transmit power of the PT is fixed as P max 0 and the backscattering time allocated for each BD is the same. The power reflection coefficient of each BD is the same and is set as 0.3, 0.5 and 0.7, respectively. It can be observed that the weighted sum rate of the system increases as P max 0 increases and the proposed scheme is superior to the fixed scheme in terms of the weighted sum rate. This is because the proposed scheme provides more flexibilities to utilize resources efficiently.</p><p>Fig. <ref type="figure">8</ref> shows the weighted sum rate of the system versus the minimum required rate for each BD R min , where R min varies from 4 kbits to 20 kbits. It can be observed that the weighted sum rate under both the proposed scheme and the fixed schemes decreases with the increasing of R min , since a larger R min means a higher QoS requirement for each BD and more resources will be allocated to the BDs with worse channels, degrading the weighted sum rate of the system.</p><p>By comparisons, we can find that the proposed scheme can achieve the highest rate, illustrating the advantage of the proposed scheme.</p><p>Fig. <ref type="figure">9</ref> plots the impacts of the HI levels on the weighted sum rate of the system, where the values of κ r and κ p are same and vary from 0.1 to 0.2. It can be observed that as the HI levels</p><p>4 6 8 10 12 14 16 18 20 The minimum required rate for each BD (kbits) 0 500 1000 1500 2000 2200</p><p>Weighted sum rate (kbits)</p><p>The proposed scheme</p><p>The fixed scheme with P 0 =P 0 max , 1 = 2 = 3 = 4 =0.3</p><p>The fixed scheme with P 0 =P 0 max , 1 = 2 = 3 = 4 =0.5</p><p>The fixed scheme with P 0 =P 0 max , 1 = 2 = 3 = 4 =0.7</p><p>Fig. <ref type="figure">8</ref>. The weighted sum rate of the system versus the minimum required rate for each BD.</p><p>0.1 0.12 0.14 0.16 0.18 0.2 r = p 0 200 400 600 800 1000 1200 1400 1600 1800 Weighted sum rate (kbits)</p><p>The proposed scheme</p><p>The fixed scheme with P 0 =P 0 max , 1 = 2 = 3 = 4 =0.3</p><p>The fixed scheme with P 0 =P 0 max , 1 = 2 = 3 = 4 =0.5</p><p>The fixed scheme with P 0 =P 0 max , 1 = 2 = 3 = 4 =0.7</p><p>Fig. <ref type="figure">9</ref>. The weighted sum rate of the system versus the HI levels.</p><p>It is clear from (A.1) that φ (x) increases with x at x ≥ 0. Thus, we have</p><formula xml:id="formula_54">       log 2 1 + P 0 hβg|cs(i)| 2 +P 0 f P 0( hβg|cs(i)| 2 +f )κ 2 +σ 2 &gt; log 2 1 + P 0 f P 0 f κ 2 +σ 2 , if |c s (i)| 2 &gt; 0, log 2 1 + P 0 hβg|cs(i)| 2 +P 0 f P 0( hβg|cs(i)| 2 +f )κ 2 +σ 2 = log 2 1 + P 0 f P 0 f κ 2 +σ 2 , if |c s (i)| 2 = 0. (A.2)</formula><p>In what follows, we examine the value of |c s (i)|</p><p>2 . In modulation schemes, different values of c s (i) are mapped to different information. If |c s (i)| 2 = 0 holds for all i, BD cannot modulate its information to the PT's signal and the achievable rate of BD equals zero. Therefore, in order to achieve the information transmission of the AmBC link, |c s (i)| 2 = 0 cannot be always satisfied for any given i. Combining this fact, |c s (i)| 2 ≥ 0 and (A.2), we reach the following result, given as</p><formula xml:id="formula_55">C p = E cs(i) B w log 2 1 + P 0 hβg|c s (i)| 2 + P 0 f P 0 hβg|c s (i)| 2 + f κ 2 + σ 2 &gt; E cs(i) B w log 2 1 + P 0 f P 0 f κ 2 + σ 2 = B w log 2 1 + P 0 f P 0 f κ 2 + σ 2 . (A.3)</formula><p>Theorem 1 can be proven by (A.3) and the proof is complete.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>APPENDIX B</head><p>As c s (i) obeys a standard symmetric complex Gaussian distribution, the distribution of |c s (i)| 2 is an exponential function with parameter one. Based on this, (8) can be rewritten as</p><formula xml:id="formula_56">C p = E cs(i) [R p (c s (i))] x=|cs(i)| 2 = ∞ 0 B w log 2 1 + ax + b aκx + bκ + σ 2 exp (-x) dx = ∞ 0 B w log 2 (aκ+a) x + b + bκ + σ 2 exp (-x) dx ∆ 1 - ∞ 0 B w log 2 aκx + bκ + σ 2 exp (-x) dx ∆ 2 , (B.1)</formula><p>where a = P 0 hβg and b = P 0 f . Using integration by parts, we have</p><formula xml:id="formula_57">∆ 1 = -B w log 2 b + bκ + σ 2 + (aκ+a) x exp (-x) ∞ 0 + B w (aκ+a) ln 2 ∞ 0 exp (-x) b + bκ + σ 2 + (aκ+a) x dx = B w log 2 b + bκ + σ 2 + B w ln 2 ∞ 0 e -x b+bκ+σ 2 aκ+a + x dx = B w log 2 b + bκ + σ 2 - B w ln 2 exp b + bκ + σ 2 aκ+a Ei - b + bκ + σ 2 aκ+a , (B.2)</formula><p>where the last equality is derived from Similar as above, ∆ 2 can be calculated as </p><formula xml:id="formula_58">∆ 2 = -B w log 2 aκx + bκ + σ 2 e -x ∞ 0 + B w ln 2 ∞ 0 e -x aκx + bκ + σ 2 dx =    B w log 2 (bκ + σ 2 ) + Bw aκ ln 2 ∞ 0 e -x x+ bκ+σ 2 aκ dx, if κ &gt; 0 B w log 2 (bκ + σ 2 ) , if κ = 0 = B</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>APPENDIX C</head><p>From ( <ref type="formula" target="#formula_10">8</ref>) and <ref type="bibr" target="#b10">(11)</ref>, it is not hard to infer that the monotonicities of C p and C s are the same as γ xp (c s (i)) = P 0 hβg|cs(i)| 2 +P 0 f P 0( hβg|cs(i)| 2 +f )κ+σ 2 and γ cs = Similar as above, it is not hard to prove that φ 2 (β) increases with β. Based on the above results, we can show that the objective function of P 1 also increases with β. Combining it with constraint (19b), proposition 3 can be proven.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>APPENDIX E</head><p>The convexity of (26a) is determined by the following two terms, given by,</p><formula xml:id="formula_59">∆ 1 = t k log 2 1 + P * 0 Lh k g k ε k t k P * 0 h k g k κ ε k t k + P * 0 f κ + σ 2 ,</formula><p>(E.1)</p><formula xml:id="formula_60">∆ 2 = E c k s (i) t k log 2 1 + P * 0 h k g k c k s (i) 2 ε k t k + P * 0 f P * 0 h k ε k t k g k |c k s (i)| 2 κ + P * 0 f κ + σ 2 . (E.2)</formula><p>If both ∆ 1 and ∆ 2 are jointly concave functions with respect to t k and ε k , Proposition 4 can be proven.</p><p>The convexity of ∆ 1 : As ∆ 1 is the perspective function of ∆ 3 = log 2 1 +</p><formula xml:id="formula_61">P * 0 Lh k g k ε k P * 0 h k g k κε k +P * 0 f κ+σ 2</formula><p>and the perspective operation preserves convexity, the convexity of ∆ 1 is the same as ∆ 3 that is the composition of φ 1 (x) = log 2 (1 + x) and φ 2 (ε k ) =</p><formula xml:id="formula_62">P * 0 Lh k g k ε k P * 0 h k g k κε k +P * 0 f κ+σ 2 . Due to ∂ 2 φ 2 (ε k ) ∂ε k 2 = -L κ 2(P * 0 h k g k κ)</formula><p>2 (P * 0 f κ+σ 2 ) (P * 0 h k g k κε k +P * 0 f κ+σ 2 ) 3 &lt; 0, φ 2 (ε k ) is a concave function. Combining it with the fact that φ 1 (x) is concave and nondecreasing, it can be inferred that ∆ 3 is a concave function according to (3.10) of <ref type="bibr" target="#b27">[28]</ref>.</p><p>The convexity of ∆ 2 : Let define a function as ∆ 4 = E c k s (i) log 2 1 +</p><formula xml:id="formula_63">P * 0 h k g k |c k s (i)| 2 ε k +P * 0 f P * 0 h k ε k g k |c k s (i)| 2 κ+P * 0 f κ+σ 2 .</formula><p>Using the perspective of a function, the convexity of ∆ 2 is the same as that of ∆ 4 . Recall that the expectation operator preserves convexity of ∆ 4 . Accordingly, ∆ 2 is a concave function if and only if ∆ 5 = log 2 1 +</p><formula xml:id="formula_64">P * 0 h k g k |c k s (i)| 2 ε k +P * 0 f P * 0 h k ε k g k |c k s (i)| 2 κ+P * 0 f κ+σ 2</formula><p>is a concave function with respect to ε k .</p><p>Similar to (D.1), we have ∆ 5 = log 2 1 + 1 κ ∆ 6 , where ∆ 6 = 1 -</p><formula xml:id="formula_65">σ 2 P * 0 h k ε k g k |c k s (i)| 2 κ+P * 0 f κ+σ 2 . Due to ∂ 2 ∆ 6</formula><p>∂ε k 2 &lt; 0, ∆ 6 is a concave function on ε k . Combining this conclusion with the fact that log 2 (1 + x) is concave and nondecreasing, we can say that ∆ 5 is concave.</p><p>Based on the above analysis and derivations, we can prove that the objective function (26a) is concave.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig.1. Mutualistic cooperative AmBC network with a single AmBC link.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>) Proposition 4 .</head><label>4</label><figDesc>The objective function (26a) is a jointly concave function with respect to t k and ε k .</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. The rate of both PT and AmBC links versus the transmit power.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. The impacts of the HI levels on the PT link's rate.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>0= 5</head><label>5</label><figDesc>mW, R min,1 = R min,2 = R min,3 = R min,4 = R min = 10 kbits, θ 1 = θ 2 = 0.1 and θ 3 = θ 4 = 0.2. Let D ps,k and D sr,k denote the distance from the k-th BD to the PT and the PR, respectively. We set D ps,1 = 5 m, D ps,2 = 6 m, D ps,3 = 7 m, D ps,4 = 6.5 m, D sr,1 = 11.5 m, D sr,2 = 11 m, D sr,3 = 9.5 m, D sr,4 = 10 m and D pr = 16 m.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><figDesc>µx)dx x+β dx = -exp (µβ) Ei (-µβ), as shown in eq.(3.352.4) of<ref type="bibr" target="#b33">[34]</ref>.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>w log 2 bκ + σ 2 -</head><label>2</label><figDesc>.2) and (B.3) into (B.1), we can reach<ref type="bibr" target="#b16">(17)</ref> and the proof is complete.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>LβhgP 0 P 0 2 . (D. 1 )</head><label>0021</label><figDesc>(βhg+f )κ+σ 2 , respectively. Dividing the numerator and denominator by P 0 , we have γ xp (c s (i)) =hβg|cs(i)| 2 +f (hβg|cs(i)| 2 +f )κ+σ 2 /P0and γ cs = Lβhg (βhg+f )κ+σ 2 /P0 , indicating that both γ xp (c s (i)) and γ cs increase with P 0 . Accordingly, the objective function increases with the growth of P 0 . Combining all the constraints of problem P 0 , it can be inferred that the upper bound of P 0 is weighted sum of C p and C s , and Proposition 2 is proven.APPENDIX DFor ease of analysis, let φ (β) = θφ 1 (β)+ 1-θ L φ 2 (β) denote the objective function of P 1 , whereφ 1 (β) = E cs(i) B w log 2 1 + P * 0 hβg|cs(i)| 2 +P * 0 f P * 0 (hβg|cs(i)| 2 +f )κ+σ 2and φ 2 (β) = B w log 2 1 +)κ+σ 2 . Subsequently, we will prove that both φ 1 (β) and φ 2 (β) are two increasing functions with respect to β.The monotonicity of φ 1 (β): Since the expectation operator does not affect the monotonicity and the logarithmic function log 2 (1 + x) increases with x, the monotonicity of φ 1 (β) is the same asP * 0 hβg|cs(i)| 2 +P * 0 f P * 0 (hβg|cs(i)| 2 +f )κ+σ2 . Through some convenient mathematical calculations, we haveP * 0 hβg|c s (i)| 2 + P * 0 f P * 0 hβg|c s (i)| 2 + f κ + σ 2 hβg|c s (i)| 2 + f κ + σThe above equation (D.1) indicates that P * 0 hβg|cs(i)| 2 +P * 0 f P * 0 (hβg|cs(i)| 2 +f )κ+σ 2 increases with β. Thus, the φ 1 (β) is an increasing function.</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_0"><p>In this paper, the AmBC transmitter and the IoT device are interchangeably used.</p></note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>increase, the weighted sum rate of the system will decrease. This is because with the increase of HI levels, the power of the distortion noise increases and thus this reduces the PT link's rate and the BD's rate. Besides, compared to the fixed scheme, where the PT's transmit power equals the optimal one while all the power reflection coefficients are fixed instead of the optimal value, we can also see that the proposed scheme can achieve a higher rate. This indicates that the value of power reflection coefficients significantly affects the achievable rates of both the primary and AmBC links.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VI. CONCLUSIONS</head><p>In this paper, we have studied the impacts of HIs and the weighted sum-rate maximization problem in the mutualistic cooperative AmBC network. We have proven that under HIs, the rates of both primary and AmBC links decrease and there exist rate ceilings for both the primary and AmBC links. We have validated that the HIs do not destroy the mutualism relationship between the AmBC link and the primary link, and have also derived closed-form expressions for both the primary and AmBC links under the assumption that the BD's message follows a symmetric complex Gaussian distribution. Two resource allocation schemes have been proposed to maximize the weighted sum rate of all links for the mutualistic cooperative AmBC network with a single AmBC link or with multiple AmBC links, respectively. In particular, the optimal solutions to the single AmBC link were derived in the closed form, while the optimal solutions to the multiple AmBC links were obtained by using convex tools to solve an equivalent convex problem. Simulation results have validated our derived results and shown that our proposed schemes achieve a higher weighted sum rate than the benchmark schemes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>APPENDIX A</head><p>Let define the following function, i.e., φ (x) = P 0 hβgx+P 0 f P 0 (hβgx+f )κ 2 +σ 2 . Taking the first derivative of φ (x) with respect to x, we have φ (x) = P 2 0 hβgσ 2 (P 0 (hβgx + f ) κ 2 + σ 2 ) 2 (A.1)</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Impacts of hardware impairments on mutualistic cooperative ambient backscatter communications</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. IEEE ICC</title>
+		<meeting>IEEE ICC</meeting>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+			<biblScope unit="page" from="1" to="6" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Practical backscatter communication systems for battery-free internet of things: A tutorial and survey of recent research</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Signal Process. Mag</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="16" to="27" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">On the outage performance of ambient backscatter communications</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Internet Things J</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="7265" to="7278" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Wireless-powered device-to-device communications with ambient backscattering: Performance modeling and analysis</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Niyato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">I</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Han</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Wireless Commun</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1528" to="1544" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Ambient backscatter: wireless communication out of thin air</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. ACM SIGCOMM</title>
+		<meeting>ACM SIGCOMM</meeting>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<biblScope unit="page">1216</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Wi-Fi backscatter: Internet connectivity for RF-powered devices</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kellogg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. ACM SIGCOMM</title>
+		<meeting>ACM SIGCOMM</meeting>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page" from="607" to="618" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Ambient backscatterers using FM broadcasting for low cost and low power wireless applications</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Daskalakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kimionis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Collado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Goussetis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Tentzeris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Georgiadis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Microw. Theory Techn</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="5251" to="5262" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Deep transfer learning for signal detection in ambient backscatter communications</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W K</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-C</forename><surname>Liang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Wireless Commun</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1624" to="1638" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Optimal detection for ambient backscatter communication systems with multiantenna reader under complex gaussian illuminator</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Tao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Internet Things J</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="11" to="371" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Modulation in the air: Backscatter communication over ambient OFDM carrier</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-C</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Pei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Commun</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1219" to="1233" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Symbiotic radio: Cognitive backscattering communications for future wireless networks</title>
+		<author>
+			<persName><forename type="first">Y.-C</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Larsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">Y</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Cogn. Commun. Netw</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1242" to="1255" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Cooperative ambient backscatter system: A symbiotic radio paradigm for passive IoT</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-C</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Wireless Commun. Lett</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1191" to="1194" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Riding on the primary: A new spectrum sharing paradigm for wireless-powered IoT devices</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-C</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. IEEE ICC</title>
+		<meeting>IEEE ICC</meeting>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page" from="1" to="6" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Cooperative ambient backscatter communications for green internet-of-things</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-C</forename><surname>Liang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Internet Things J</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="1116" to="1130" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Symbiotic radio: A new communication paradigm for passive internet of things</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-C</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Internet Things J</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="1350" to="1363" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Resource allocations for symbiotic radio with finite blocklength backscatter link</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Chu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Khalily</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tafazolli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Internet Things J</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="8192" to="8207" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Stochastic transceiver optimization in multi-tags symbiotic radio systems</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">V</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-J</forename><surname>Zhao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Internet Things J</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="9144" to="9157" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Symbiotic radio with full-duplex backscatter devices</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-C</forename><surname>Liang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. IEEE ICC</title>
+		<meeting>IEEE ICC</meeting>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="1" to="6" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Energy efficiency maximization for symbiotic radio networks with multiple backscatter devices</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Open J. Commun. Soc</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1431" to="1444" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Harvesting devices&apos; heterogeneous energy profiles and QoS requirements in IoT: WPT-NOMA vs BAC-NOMA</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Commun</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="2837" to="2850" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Backscatter-NOMA: An integrated system of cellular and internet-ofthings networks</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-C</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">Y</forename><surname>Kam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. IEEE ICC</title>
+		<meeting>IEEE ICC</meeting>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="1" to="6" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Ergodic rate analysis of cooperative ambient backscatter communication</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-S</forename><surname>Alouini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nallanathan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Wireless Commun. Lett</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1679" to="1682" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">M-QAM-OFDM system performance in the presence of a nonlinear amplifier and phase noise</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Costa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pupolin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Commun</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="462" to="472" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">System outage probability of PS-SWIPT enabled two-way AF relaying with hardware impairments</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Veh. Technol</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="13" to="532" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Massive MIMO systems with non-ideal hardware: Energy efficiency, estimation, and capacity limits</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Björnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hoydis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kountouris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Debbah</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Inf. Theory</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="7112" to="7139" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Hardware impaired ambient backscatter NOMA systems: Reliability and security</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mumtaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">G</forename><surname>Menon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">A</forename><surname>Dobre</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Commun</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="2723" to="2736" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Ambient backscatter communication systems: Detection and performance analysis</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tellambura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Commun</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="4836" to="4846" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Convex optimization</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Boyd</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+			<publisher>Cambridge University Press</publisher>
+			<pubPlace>Cambridge, UK</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Wireless energy harvesting using signals from multiple fading channels</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Alouini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Commun</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="5027" to="5039" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Throughput fairness guarantee in wireless powered backscatter communications with HTT</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Wireless Commun. Lett</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="449" to="453" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Wirelessly powered two-way communication with nonlinear energy harvesting model: Rate regions under fixed and mobile relay</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Xia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-C</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Wireless Commun</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="8190" to="8204" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Energy efficiency maximization for SWIPT enabled two-way DF relaying</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">Q</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Signal Process. Lett</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="755" to="759" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Practical non-linear energy harvesting model and resource allocation for SWIPT systems</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Boshkovska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W K</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Zlatanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Schober</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Commun. Lett</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="2082" to="2085" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title level="m" type="main">Table of integrals, series, and products</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">S</forename><surname>Gradshteyn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M</forename><surname>Ryzhik</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<publisher>Academic press</publisher>
+			<pubPlace>New York, NY, USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note>View publication stats</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,37 +1,97 @@
 {
-  "paper_title": "RIS-Empowered Ambient Backscatter Communication Systems",
-  "doi": "10.1109/lwc.2022.3220158",
-  "publication_date": "2023",
-  "keywords": [
-    "Ambient backscatter communication (AmBC)",
-    "reconfigurable intelligent surface (RIS)",
-    "passive tag"
-  ],
+  "paper_title": "Mutualistic Cooperative Ambient Backscatter Communications Under Hardware Impairments",
+  "doi": "10.1109/tcomm.2022.3201119",
+  "publication_date": "2022",
+  "keywords": [],
   "authors": [
     {
-      "full_name": "D Loku Galappaththige",
-      "orcid": "0000-0001-9644-9547"
+      "full_name": "Yinghui Ye",
+      "orcid": "0000-0002-0110-3592"
     },
     {
-      "full_name": "F Rezaei",
-      "email": "rezaeidi@ualberta.ca",
-      "orcid": "0000-0001-8234-7136"
+      "full_name": "Liqin Shi",
+      "email": "liqinshi@hotmail.com",
+      "orcid": "0000-0002-1200-8160"
     },
     {
-      "full_name": "C Tellambura",
-      "orcid": "0000-0002-9419-7195"
+      "full_name": "Xiaoli Chu",
+      "orcid": "0000-0003-1863-6149"
     },
     {
-      "full_name": "Sanjeewa Herath",
-      "orcid": "0000-0001-5980-1142"
+      "full_name": "Guangyue Lu",
+      "orcid": "0000-0002-3938-9207"
+    },
+    {
+      "full_name": "Sumei Sun",
+      "orcid": "0000-0002-1701-8122"
     }
   ],
   "references": [
     {
-      "title": "Ambient Backscatter Communication Networks",
+      "title": "Impacts of hardware impairments on mutualistic cooperative ambient backscatter communications",
       "authors": [
         {
-          "full_name": "D T Hoang"
+          "full_name": "Y Ye"
+        },
+        {
+          "full_name": "L Shi"
+        },
+        {
+          "full_name": "X Chu"
+        },
+        {
+          "full_name": "G Lu"
+        },
+        {
+          "full_name": "S Sun"
+        }
+      ],
+      "date": "2022",
+      "journal": "Proc. IEEE ICC"
+    },
+    {
+      "title": "Practical backscatter communication systems for battery-free internet of things: A tutorial and survey of recent research",
+      "authors": [
+        {
+          "full_name": "C Xu"
+        },
+        {
+          "full_name": "L Yang"
+        },
+        {
+          "full_name": "P Zhang"
+        }
+      ],
+      "date": "2018",
+      "journal": "IEEE Signal Process. Mag"
+    },
+    {
+      "title": "On the outage performance of ambient backscatter communications",
+      "authors": [
+        {
+          "full_name": "Y Ye"
+        },
+        {
+          "full_name": "L Shi"
+        },
+        {
+          "full_name": "X Chu"
+        },
+        {
+          "full_name": "G Lu"
+        }
+      ],
+      "date": "2020",
+      "journal": "IEEE Internet Things J"
+    },
+    {
+      "title": "Wireless-powered device-to-device communications with ambient backscattering: Performance modeling and analysis",
+      "authors": [
+        {
+          "full_name": "X Lu"
+        },
+        {
+          "full_name": "H Jiang"
         },
         {
           "full_name": "D Niyato"
@@ -40,77 +100,122 @@
           "full_name": "D I Kim"
         },
         {
-          "full_name": "N V Huynh"
-        },
-        {
-          "full_name": "S Gong"
+          "full_name": "Z Han"
         }
       ],
-      "date": "2020"
-    },
-    {
-      "title": "Large-scale wirelesspowered networks with backscatter communications-A comprehensive survey",
-      "authors": [
-        {
-          "full_name": "F Rezaei"
-        },
-        {
-          "full_name": "C Tellambura"
-        },
-        {
-          "full_name": "S Herath"
-        }
-      ],
-      "date": "2020",
-      "journal": "IEEE Open J. Commun. Soc"
-    },
-    {
-      "title": "Intelligent reflecting surface enhanced wireless network via joint active and passive beamforming",
-      "authors": [
-        {
-          "full_name": "Q Wu"
-        },
-        {
-          "full_name": "R Zhang"
-        }
-      ],
-      "date": "2019",
+      "date": "2018",
       "journal": "IEEE Trans. Wireless Commun"
     },
     {
-      "title": "IRS-assisted ambient backscatter communications utilizing deep reinforcement learning",
+      "title": "Ambient backscatter: wireless communication out of thin air",
       "authors": [
         {
-          "full_name": "X Jia"
+          "full_name": "V Liu"
+        }
+      ],
+      "date": "2013",
+      "journal": "Proc. ACM SIGCOMM"
+    },
+    {
+      "title": "Wi-Fi backscatter: Internet connectivity for RF-powered devices",
+      "authors": [
+        {
+          "full_name": "B Kellogg"
+        }
+      ],
+      "date": "2014",
+      "journal": "Proc. ACM SIGCOMM"
+    },
+    {
+      "title": "Ambient backscatterers using FM broadcasting for low cost and low power wireless applications",
+      "authors": [
+        {
+          "full_name": "S N Daskalakis"
         },
         {
-          "full_name": "X Zhou"
+          "full_name": "J Kimionis"
+        },
+        {
+          "full_name": "A Collado"
+        },
+        {
+          "full_name": "G Goussetis"
+        },
+        {
+          "full_name": "M M Tentzeris"
+        },
+        {
+          "full_name": "A Georgiadis"
+        }
+      ],
+      "date": "2017",
+      "journal": "IEEE Trans. Microw. Theory Techn"
+    },
+    {
+      "title": "Deep transfer learning for signal detection in ambient backscatter communications",
+      "authors": [
+        {
+          "full_name": "C Liu"
+        },
+        {
+          "full_name": "Z Wei"
+        },
+        {
+          "full_name": "D W K Ng"
+        },
+        {
+          "full_name": "J Yuan"
+        },
+        {
+          "full_name": "Y.-C Liang"
         }
       ],
       "date": "2021",
-      "journal": "IEEE Wireless Commun. Lett"
+      "journal": "IEEE Trans. Wireless Commun"
     },
     {
-      "title": "Design of intelligent reflecting surface (IRS)-boosted ambient backscatter systems",
+      "title": "Optimal detection for ambient backscatter communication systems with multiantenna reader under complex gaussian illuminator",
       "authors": [
         {
-          "full_name": "S Idrees"
+          "full_name": "Q Tao"
         },
         {
-          "full_name": "X Jia"
+          "full_name": "C Zhong"
         },
         {
-          "full_name": "S Durrani"
+          "full_name": "X Chen"
         },
         {
-          "full_name": "X Zhou"
+          "full_name": "H Lin"
+        },
+        {
+          "full_name": "Z Zhang"
         }
       ],
-      "date": "2022",
-      "journal": "IEEE Access"
+      "date": "2020",
+      "journal": "IEEE Internet Things J"
     },
     {
-      "title": "Backscatter communication assisted by reconfigurable intelligent surfaces",
+      "title": "Modulation in the air: Backscatter communication over ambient OFDM carrier",
+      "authors": [
+        {
+          "full_name": "G Yang"
+        },
+        {
+          "full_name": "Y.-C Liang"
+        },
+        {
+          "full_name": "R Zhang"
+        },
+        {
+          "full_name": "Y Pei"
+        }
+      ],
+      "date": "2018",
+      "journal": "IEEE Trans. Commun"
+    },
+    {
+      "title": "Symbiotic radio: Cognitive backscattering communications for future wireless networks",
       "authors": [
         {
           "full_name": "Y.-C Liang"
@@ -119,93 +224,68 @@
           "full_name": "Q Zhang"
         },
         {
-          "full_name": "J Wang"
+          "full_name": "E G Larsson"
+        },
+        {
+          "full_name": "G Y Li"
+        }
+      ],
+      "date": "2020",
+      "journal": "IEEE Trans. Cogn. Commun. Netw"
+    },
+    {
+      "title": "Cooperative ambient backscatter system: A symbiotic radio paradigm for passive IoT",
+      "authors": [
+        {
+          "full_name": "H Guo"
+        },
+        {
+          "full_name": "Y.-C Liang"
         },
         {
           "full_name": "R Long"
         },
         {
-          "full_name": "H Zhou"
+          "full_name": "Q Zhang"
+        }
+      ],
+      "date": "2019",
+      "journal": "IEEE Wireless Commun. Lett"
+    },
+    {
+      "title": "Riding on the primary: A new spectrum sharing paradigm for wireless-powered IoT devices",
+      "authors": [
+        {
+          "full_name": "X Kang"
         },
+        {
+          "full_name": "Y.-C Liang"
+        },
+        {
+          "full_name": "J Yang"
+        }
+      ],
+      "date": "2017",
+      "journal": "Proc. IEEE ICC"
+    },
+    {
+      "title": "Cooperative ambient backscatter communications for green internet-of-things",
+      "authors": [
         {
           "full_name": "G Yang"
+        },
+        {
+          "full_name": "Q Zhang"
+        },
+        {
+          "full_name": "Y.-C Liang"
         }
       ],
-      "date": "2022",
-      "journal": "Proc. IEEE"
+      "date": "2018",
+      "journal": "IEEE Internet Things J"
     },
     {
-      "title": "Short-range ambient backscatter communication using reconfigurable intelligent surfaces",
-      "authors": [
-        {
-          "full_name": "M Nemati"
-        },
-        {
-          "full_name": "J Ding"
-        },
-        {
-          "full_name": "J Choi"
-        }
-      ],
-      "date": "2020",
-      "journal": "Proc. IEEE Wireless Commun. Netw. Conf. (WCNC)"
-    },
-    {
-      "title": "Performance of ambient backscatter systems using reconfigurable intelligent surface",
-      "authors": [
-        {
-          "full_name": "Y Chen"
-        }
-      ],
-      "date": "2021",
-      "journal": "IEEE Commun. Lett"
-    },
-    {
-      "title": "Reconfigurable intelligent surface-assisted ambient backscatter communications-Experimental assessment",
-      "authors": [
-        {
-          "full_name": "R Fara"
-        },
-        {
-          "full_name": "D.-T Phan-Huy"
-        },
-        {
-          "full_name": "P Ratajczak"
-        },
-        {
-          "full_name": "A Ourir"
-        },
-        {
-          "full_name": "M Di Renzo"
-        },
-        {
-          "full_name": "J De Rosny"
-        }
-      ],
-      "date": "2021",
-      "journal": "Proc. IEEE Int. Conf. Commun. Workshops (ICC Workshops)"
-    },
-    {
-      "title": "Exploiting intelligent reflecting surface for energy efficiency in ambient backscatter communicationenabled NOMA networks",
-      "authors": [
-        {
-          "full_name": "Y Zhuang"
-        },
-        {
-          "full_name": "X Li"
-        },
-        {
-          "full_name": "H Ji"
-        },
-        {
-          "full_name": "H Zhang"
-        }
-      ],
-      "date": "2022",
-      "journal": "IEEE Trans. Green Commun. Netw"
-    },
-    {
-      "title": "Symbiotic radio: A new communication paradigm for passive Internet of Things",
+      "title": "Symbiotic radio: A new communication paradigm for passive internet of things",
       "authors": [
         {
           "full_name": "R Long"
@@ -227,13 +307,225 @@
       "journal": "IEEE Internet Things J"
     },
     {
-      "title": "Blind channel estimation for ambient backscatter communication systems",
+      "title": "Resource allocations for symbiotic radio with finite blocklength backscatter link",
       "authors": [
         {
-          "full_name": "S Ma"
+          "full_name": "Z Chu"
         },
         {
+          "full_name": "W Hao"
+        },
+        {
+          "full_name": "P Xiao"
+        },
+        {
+          "full_name": "M Khalily"
+        },
+        {
+          "full_name": "R Tafazolli"
+        }
+      ],
+      "date": "2020",
+      "journal": "IEEE Internet Things J"
+    },
+    {
+      "title": "Stochastic transceiver optimization in multi-tags symbiotic radio systems",
+      "authors": [
+        {
+          "full_name": "X Chen"
+        },
+        {
+          "full_name": "H V Cheng"
+        },
+        {
+          "full_name": "K Shen"
+        },
+        {
+          "full_name": "A Liu"
+        },
+        {
+          "full_name": "M.-J Zhao"
+        }
+      ],
+      "date": "2020",
+      "journal": "IEEE Internet Things J"
+    },
+    {
+      "title": "Symbiotic radio with full-duplex backscatter devices",
+      "authors": [
+        {
+          "full_name": "R Long"
+        },
+        {
+          "full_name": "H Guo"
+        },
+        {
+          "full_name": "Y.-C Liang"
+        }
+      ],
+      "date": "2019",
+      "journal": "Proc. IEEE ICC"
+    },
+    {
+      "title": "Energy efficiency maximization for symbiotic radio networks with multiple backscatter devices",
+      "authors": [
+        {
+          "full_name": "H Yang"
+        },
+        {
+          "full_name": "Y Ye"
+        },
+        {
+          "full_name": "K Liang"
+        },
+        {
+          "full_name": "X Chu"
+        }
+      ],
+      "date": "2021",
+      "journal": "IEEE Open J. Commun. Soc"
+    },
+    {
+      "title": "Harvesting devices' heterogeneous energy profiles and QoS requirements in IoT: WPT-NOMA vs BAC-NOMA",
+      "authors": [
+        {
+          "full_name": "Z Ding"
+        }
+      ],
+      "date": "2021",
+      "journal": "IEEE Trans. Commun"
+    },
+    {
+      "title": "Backscatter-NOMA: An integrated system of cellular and internet-ofthings networks",
+      "authors": [
+        {
+          "full_name": "Q Zhang"
+        },
+        {
+          "full_name": "L Zhang"
+        },
+        {
+          "full_name": "Y.-C Liang"
+        },
+        {
+          "full_name": "P Y Kam"
+        }
+      ],
+      "date": "2019",
+      "journal": "Proc. IEEE ICC"
+    },
+    {
+      "title": "Ergodic rate analysis of cooperative ambient backscatter communication",
+      "authors": [
+        {
+          "full_name": "S Zhou"
+        },
+        {
+          "full_name": "W Xu"
+        },
+        {
+          "full_name": "K Wang"
+        },
+        {
+          "full_name": "C Pan"
+        },
+        {
+          "full_name": "M.-S Alouini"
+        },
+        {
+          "full_name": "A Nallanathan"
+        }
+      ],
+      "date": "2019",
+      "journal": "IEEE Wireless Commun. Lett"
+    },
+    {
+      "title": "M-QAM-OFDM system performance in the presence of a nonlinear amplifier and phase noise",
+      "authors": [
+        {
+          "full_name": "E Costa"
+        },
+        {
+          "full_name": "S Pupolin"
+        }
+      ],
+      "date": "2002",
+      "journal": "IEEE Trans. Commun"
+    },
+    {
+      "title": "System outage probability of PS-SWIPT enabled two-way AF relaying with hardware impairments",
+      "authors": [
+        {
+          "full_name": "Z Liu"
+        },
+        {
+          "full_name": "G Lu"
+        },
+        {
+          "full_name": "Y Ye"
+        },
+        {
+          "full_name": "X Chu"
+        }
+      ],
+      "date": "2020",
+      "journal": "IEEE Trans. Veh. Technol"
+    },
+    {
+      "title": "Massive MIMO systems with non-ideal hardware: Energy efficiency, estimation, and capacity limits",
+      "authors": [
+        {
+          "full_name": "E Björnson"
+        },
+        {
+          "full_name": "J Hoydis"
+        },
+        {
+          "full_name": "M Kountouris"
+        },
+        {
+          "full_name": "M Debbah"
+        }
+      ],
+      "date": "2014",
+      "journal": "IEEE Trans. Inf. Theory"
+    },
+    {
+      "title": "Hardware impaired ambient backscatter NOMA systems: Reliability and security",
+      "authors": [
+        {
+          "full_name": "X Li"
+        },
+        {
+          "full_name": "M Zhao"
+        },
+        {
+          "full_name": "M Zeng"
+        },
+        {
+          "full_name": "S Mumtaz"
+        },
+        {
+          "full_name": "V G Menon"
+        },
+        {
+          "full_name": "Z Ding"
+        },
+        {
+          "full_name": "O A Dobre"
+        }
+      ],
+      "date": "2021",
+      "journal": "IEEE Trans. Commun"
+    },
+    {
+      "title": "Ambient backscatter communication systems: Detection and performance analysis",
+      "authors": [
+        {
           "full_name": "G Wang"
+        },
+        {
+          "full_name": "F Gao"
         },
         {
           "full_name": "R Fan"
@@ -242,43 +534,36 @@
           "full_name": "C Tellambura"
         }
       ],
-      "date": "2018",
-      "journal": "IEEE Commun. Lett"
+      "date": "2016",
+      "journal": "IEEE Trans. Commun"
     },
     {
-      "title": "MIMO broadcasting for simultaneous wireless information and power transfer",
+      "title": "Convex optimization",
       "authors": [
         {
-          "full_name": "R Zhang"
-        },
-        {
-          "full_name": "C K Ho"
+          "full_name": "S Boyd"
         }
       ],
-      "date": "2013",
-      "journal": "IEEE Trans. Wireless Commun"
+      "date": "2004"
     },
     {
-      "title": "Simultaneous information and power transfer under a non-linear RF energy harvesting model",
+      "title": "Wireless energy harvesting using signals from multiple fading channels",
       "authors": [
         {
-          "full_name": "X Xu"
+          "full_name": "Y Chen"
         },
         {
-          "full_name": "A Özçelikkale"
+          "full_name": "N Zhao"
         },
         {
-          "full_name": "T Mckelvey"
-        },
-        {
-          "full_name": "M Viberg"
+          "full_name": "M Alouini"
         }
       ],
       "date": "2017",
-      "journal": "Proc. IEEE Int. Conf. Commun. Workshops (ICC Workshops"
+      "journal": "IEEE Trans. Commun"
     },
     {
-      "title": "Mutualistic cooperative ambient backscatter communications under hardware impairments",
+      "title": "Throughput fairness guarantee in wireless powered backscatter communications with HTT",
       "authors": [
         {
           "full_name": "Y Ye"
@@ -291,93 +576,79 @@
         },
         {
           "full_name": "G Lu"
-        },
-        {
-          "full_name": "S Sun"
         }
       ],
-      "date": "2022",
-      "journal": "IEEE Trans. Commun., early access"
-    },
-    {
-      "title": "Performance analysis and resource allocations for a WPCN with a new nonlinear energy harvester model",
-      "authors": [
-        {
-          "full_name": "D Wang"
-        },
-        {
-          "full_name": "F Rezaei"
-        },
-        {
-          "full_name": "C Tellambura"
-        }
-      ],
-      "date": "2020",
-      "journal": "IEEE Open J. Commun. Soc"
-    },
-    {
-      "title": "Fundamentals of Statistical Signal Processing: Estimation Theory",
-      "authors": [
-        {
-          "full_name": "S M Kay"
-        }
-      ],
-      "date": "1993"
-    },
-    {
-      "title": "Performance analysis of large intelligent surface aided backscatter communication systems",
-      "authors": [
-        {
-          "full_name": "W Zhao"
-        },
-        {
-          "full_name": "G Wang"
-        },
-        {
-          "full_name": "S Atapattu"
-        },
-        {
-          "full_name": "T A Tsiftsis"
-        },
-        {
-          "full_name": "X Ma"
-        }
-      ],
-      "date": "2020",
+      "date": "2021",
       "journal": "IEEE Wireless Commun. Lett"
     },
     {
-      "title": "Fractional programming for communication systems-Part I: Power control and beamforming",
+      "title": "Wirelessly powered two-way communication with nonlinear energy harvesting model: Rate regions under fixed and mobile relay",
       "authors": [
         {
-          "full_name": "K Shen"
+          "full_name": "S Wang"
         },
         {
-          "full_name": "W Yu"
+          "full_name": "M Xia"
+        },
+        {
+          "full_name": "K Huang"
+        },
+        {
+          "full_name": "Y.-C Wu"
         }
       ],
-      "date": "2018",
-      "journal": "IEEE Trans. Signal Process"
+      "date": "2017",
+      "journal": "IEEE Trans. Wireless Commun"
     },
     {
-      "title": "Convex Optimization",
+      "title": "Energy efficiency maximization for SWIPT enabled two-way DF relaying",
       "authors": [
         {
-          "full_name": "S Boyd"
+          "full_name": "L Shi"
         },
         {
-          "full_name": "L Vandenberghe"
+          "full_name": "Y Ye"
+        },
+        {
+          "full_name": "R Q Hu"
+        },
+        {
+          "full_name": "H Zhang"
         }
       ],
-      "date": "2004"
+      "date": "2019",
+      "journal": "IEEE Signal Process. Lett"
     },
     {
-      "title": "Study on ambient IoT, 9.1 (from RP-222685),\" 3GPP"
+      "title": "Practical non-linear energy harvesting model and resource allocation for SWIPT systems",
+      "authors": [
+        {
+          "full_name": "E Boshkovska"
+        },
+        {
+          "full_name": "D W K Ng"
+        },
+        {
+          "full_name": "N Zlatanov"
+        },
+        {
+          "full_name": "R Schober"
+        }
+      ],
+      "date": "2015",
+      "journal": "IEEE Commun. Lett"
     },
     {
-      "title": "3GPP",
-      "date": "2010",
-      "journal": "Further advancements for E-UTRA physical layer aspects, v.9.0.0 rel"
+      "title": "Table of integrals, series, and products",
+      "authors": [
+        {
+          "full_name": "I S Gradshteyn"
+        },
+        {
+          "full_name": "I M Ryzhik"
+        }
+      ],
+      "date": "2007"
     }
   ]
 }
